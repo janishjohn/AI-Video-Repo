@@ -2,13 +2,15 @@
 
 ## Purpose
 
-Create original, funny, comic-style husband-and-wife stories for YouTube Shorts using VideoExpress AI. Each episode is designed as **30 seconds total: five clips, six seconds each**. Default format is **vertical 9:16**.
+Create original, funny, comic-style husband-and-wife stories for Facebook Reels and YouTube Shorts using VideoExpress AI. Each episode is designed as **30 seconds total: five clips, six seconds each**. Default format is a shared **vertical 9:16 master at 1080×1920 MP4 when available**.
 
 The stories should feel relatable, warm, visually expressive, and easy to understand without sound. Use playful domestic misunderstandings, clever reversals, exaggerated reactions, and a strong visual punchline. Keep the couple affectionate: the humor comes from the situation and their personalities, not cruelty, humiliation, or stereotypes.
 
 This workflow is inspired by the general idea of a narrated stickman story agent. It is an original adaptation for this repo; it does not copy the reference project's full prompt.
 
 ## Defaults
+
+- Platforms: Facebook Reels and YouTube Shorts. Prepare separate platform titles/captions from the same clean video master.
 
 - Format: vertical 9:16.
 - Runtime: 30 seconds.
@@ -153,6 +155,12 @@ Do not export until every usable rendered clip is on the timeline.
 **“The husband says he has finally learned to listen. His wife tests him by asking him to bring one thing from the kitchen. He returns with an absurd pile of items. Just as she starts to explain, he reveals he brought everything so she could choose. She laughs, then hands him the one thing he forgot: the grocery list.”**
 
 Expand any story seed into exactly five six-second clips, each with a concise visual gag, a detailed image prompt, a separate motion prompt, and short natural dialogue by default. The example is only a seed; create fresh stories rather than repeating it automatically.
+
+## Cross-posting package
+
+Keep the shared 30-second master in vertical 9:16, with faces, captions, and the joke's key prop away from top and bottom interface controls. Export without platform watermarks or baked-in follow prompts. Use music only if cleared for both destinations; otherwise add platform-cleared audio separately.
+
+Prepare a concise YouTube title/description and a separate Facebook caption/description. This workflow prepares the video and copy but does not publish unless the user asks.
 
 ## Completion report
 
