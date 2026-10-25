@@ -71,6 +71,14 @@ Before rendering, write a compact storyboard table with:
 
 Give the couple stable visual identities. Example design choices may be selected per series, then retained: husband with a blue shirt and round glasses; wife with a yellow cardigan and high ponytail. Do not silently change faces, clothing, proportions, or accessories from clip to clip. Keep both characters clearly 2D stickmen; avoid photorealistic humans or mixed art styles.
 
+### Stickman anatomy — non-negotiable
+- Both spouses must be full-body, unmistakable stick-figure characters in every reference and generated shot. Use a simple round head, expressive face, and thin continuous line-art neck, torso, arms, hands, legs, and feet. Clothing may appear as simple colored shapes over the line-art body, but must not turn the torso or limbs into realistic human anatomy.
+- Show two complete legs per character from hips to feet, with both knees and ankles visibly connected in the correct order. Legs must have consistent thin stick-line thickness from upper leg through knee to ankle; do not mix human thighs with stick lower legs, omit a leg, end a leg at the knee, merge legs, or crop limbs at frame edges. Keep feet visible when a full-body shot is requested.
+- Make both characters match the same stickman art style and level of detail. No realistic human girl, realistic skin/flesh limbs, partial-body hybrid, mannequin, amputated appearance, malformed joints, extra/missing limbs, or inconsistent limb thickness.
+- Use full-body or three-quarter framing with enough room around each figure to inspect all limbs. If a pose, prop, sofa, or frame hides the legs, change the staging or camera framing so both complete leg silhouettes remain readable.
+- Put these anatomy constraints directly into every source-image prompt and every video/motion prompt; image/video models may not reliably carry instructions across stages. Re-state the matching design for husband and wife rather than relying on “same characters” alone.
+- Inspect each generated source image at readable size before animating. Reject and regenerate any image where either spouse is not clearly a complete stick figure, where any limb is cropped/hidden/malformed, or where the two spouses use different art styles. Do not send a failed anatomy reference into video generation. After motion generation, inspect for limb deformation or style drift and retry confirmed unusable output within the attempt limit.
+
 ## Image prompts
 
 For each clip, create a separate 9:16 source-image prompt showing the exact opening moment of that clip. Include:
@@ -82,7 +90,10 @@ For each clip, create a separate 9:16 source-image prompt showing the exact open
 - bright, readable 2D comic lighting, clean outlines, cel colors, and a restrained comic visual effect where useful;
 - the clip's incoming state, so it continues from the previous clip.
 
-Use large expressive poses and silhouettes. Keep backgrounds simple enough that the joke reads instantly. Review character count, limbs, props, hands, and eyelines before animating. Fix a badly staged source image before generating its video.
+Use large expressive poses and silhouettes. Keep backgrounds simple enough that the joke reads instantly.
+- Include the complete stickman anatomy checklist in every prompt: round heads; line-art necks and torsos; two thin continuous arms and two thin continuous legs per person; clearly connected knees and ankles; visible feet in full-body framing; consistent thin line weight; matching 2D stick-figure style for both spouses; no flesh-like limbs or realistic human anatomy.
+- Stage both spouses in a full-body or three-quarter view with all four legs visible and unblocked. Avoid poses, furniture, props, or crops that conceal the knees, lower legs, ankles, or feet.
+- Before animation, inspect each source image for two complete, correctly connected stick figures and matched style. Regenerate any source that has a hybrid body, a missing/cropped/hidden limb, a realistic spouse, malformed joints, or inconsistent limb thickness. Do not proceed until the source passes this check.
 
 ## Video prompts
 
