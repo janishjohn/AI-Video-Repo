@@ -16,7 +16,7 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 - Style: clean 2D stickman comic animation, bold readable outlines, expressive faces, clear poses, bright cel colors, simple backgrounds, motion lines and restrained comic effects.
 - Cast: one recurring husband and one recurring wife, unless a story needs a small supporting role.
 - Character consistency: create one character reference/master for each spouse, keep their design and outfits stable in the episode, and use the same references in every scene when supported.
-- Audio: concise narration or dialogue only when requested; otherwise make the visual gag understandable on mute. Add captions only when supported and legible.
+- Audio: include short, natural husband-and-wife dialogue by default. Use stable, distinct voices and correct speaker assignment. Keep the visual joke understandable on mute with readable captions when supported. Narration is optional and must not replace the couple's exchange.
 - Branding: place “AJ-AI” subtly in a background detail when it fits; never rely on tiny lettering.
 - Rendering: VideoExpress supports up to five simultaneous renders for this workflow. Confirm the visible account limit; submit the five planned clips in order, never more than five at once.
 
@@ -32,6 +32,18 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 8. Keep dialogue short enough to fit naturally in six seconds. No clip should require a long explanation.
 9. Keep characters kind to each other. End on a shared laugh, affectionate reveal, or playful twist where possible.
 10. No filler: if a beat does not advance the gag, sharpen or remove it while preserving the five-clip format.
+
+## Relatable, enjoyable, shareable comedy — required
+
+- Choose an everyday situation viewers recognize immediately: deciding dinner, lost phones, shared blankets, delivery fees, chores, alarms, or choosing a movie.
+- Aim for “this is us” recognition and a reason to send the short to a partner or friend. Shareability is a creative goal, never a guaranteed performance claim.
+- Write the spoken joke first. Use conversational English, contractions, short lines, and a clear setup followed by a surprising payoff. Avoid abstract lessons, slow explanations, or a story whose humor depends on a plant visibly changing health in seconds.
+- Hook within the first two seconds. Each clip must add a new beat; clip 5 must deliver the strongest laugh. End with a warm reaction or visual callback, not an explanation of the joke.
+- Allow roughly 8–12 spoken words per six-second clip and leave time for expressions and a reaction pause. Prefer one speaker per clip; when two speak, specify their order and prohibit overlapping speech.
+- In VideoExpress's combined Video and Audio Prompt field, include exact quoted dialogue with the speaker named, plus voice and timing directions. Use separate audio controls when the app offers them. Keep dialogue out of the source-image prompt.
+- Reuse the same reference image for the couple. A reference containing both spouses may be used when the app supports it. Keep mouths visible for speaking shots and avoid unnecessary camera movement.
+- Review every rendered clip for audible dialogue, correct speaker, stable voice, natural pacing, and a readable joke. Retry confirmed unusable output within the existing attempt limit. Never export a dialogue episode with missing or cut-off lines.
+- Use captions only when supported and proofread them. Do not claim captions, audio review, or audience appeal were verified unless actually checked.
 
 ## Five-clip beat map
 
@@ -112,7 +124,7 @@ Do not export until every usable rendered clip is on the timeline.
 
 **“The husband says he has finally learned to listen. His wife tests him by asking him to bring one thing from the kitchen. He returns with an absurd pile of items. Just as she starts to explain, he reveals he brought everything so she could choose. She laughs, then hands him the one thing he forgot: the grocery list.”**
 
-Expand any story seed into exactly five six-second clips, each with a concise visual gag, a detailed image prompt, a separate motion prompt, and optional short dialogue. The example is only a seed; create fresh stories rather than repeating it automatically.
+Expand any story seed into exactly five six-second clips, each with a concise visual gag, a detailed image prompt, a separate motion prompt, and short natural dialogue by default. The example is only a seed; create fresh stories rather than repeating it automatically.
 
 ## Completion report
 
