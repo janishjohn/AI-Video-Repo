@@ -1,12 +1,13 @@
 # AJ-AI Mini-Drama Animal Shorts Workflow
 
-A VideoExpress browser workflow for turning an animal-story idea into a fast, connected vertical Short. It combines the hook-first pacing of [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mini-dramas) with this repo's established cinematic, whimsical animal stories and subtle AJ-AI branding.
+A VideoExpress browser workflow for turning an animal-story idea into a fast, connected vertical video prepared for Facebook Reels and YouTube Shorts. It combines the hook-first pacing of [Realistic Mini Dramas](https://github.com/ai-playbooks/realistic-mini-dramas) with this repo's established cinematic, whimsical animal stories and subtle AJ-AI branding.
 
 ## Personal defaults
 
-- **Format:** YouTube Shorts, vertical 9:16.
+- **Platforms:** Facebook Reels and YouTube Shorts.
+- **Shared master:** vertical 9:16, 1080×1920 MP4 when available.
 - **Style:** cinematic, whimsical animal-led story.
-- **Length:** 30–45 seconds; use 30 seconds for a quick gag and 45 seconds for a fuller emotional turn.
+- **Length:** 30–45 seconds for easy cross-posting; check current platform limits for longer requests.
 - **Pacing:** open during the most interesting moment; escalate quickly; land one reveal, emotional turn, or punchline near the end.
 - **Brand:** include “AJ-AI” only as a subtle, legible environmental detail when it fits naturally. Never obscure the action.
 - **Audio:** use narration only when requested or when it clearly improves the story; otherwise let action and suitable sound effects carry it.
@@ -96,10 +97,20 @@ Do not export until submitted jobs have known outcomes and the timeline is accou
 6. Save and confirm the visible save state.
 7. Export the requested format and quality. Confirm the export exists and opens when the UI permits.
 
+## Platform packaging and delivery
+
+Use a shared 9:16 master for both platforms. Keep important faces, action, text, and AJ-AI branding in the central safe area with top and bottom space for interface controls. Prefer a clean export without platform watermarks or baked-in follow prompts. Use audio cleared for both services, or export without music and add audio separately in each platform's own editor.
+
+Prepare separate upload copy:
+- **YouTube Shorts:** concise title, short description, and a few relevant hashtags.
+- **Facebook Reels:** conversational caption/description and a few relevant hashtags.
+
+The default 30–45 second edit stays comfortably within the currently described Facebook Reels limit and YouTube Shorts limit. If the user requests longer content, check the current destination upload requirements before finalizing. The workflow creates an export and copy; it does not publish unless the user asks.
+
 ## Delivery
 
 Report the title, format, scene count, actual runtime when visible, audio choice, save/export state, and whether timeline completeness was checked. Mention any failed scene or check that could not be completed. Never claim a render, timeline review, or export succeeded unless you saw evidence in VideoExpress.
 
 ## Copy-ready intake
 
-**Let's make an AJ-AI animal Short.** Tell me the story idea or animal, and optionally the length, visual style, narration choice, or reference image/video. If you leave those open, I'll use the personal defaults above.
+**Let's make an AJ-AI video for Facebook Reels and YouTube Shorts.** Tell me the story idea or animal, and optionally the length, visual style, narration choice, or reference image/video. If you leave those open, I'll use the personal defaults above.
