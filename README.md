@@ -1,6 +1,6 @@
 # AJ-AI VideoExpress Story Workflows
 
-A personal collection of reusable production prompts for creating YouTube Shorts and story videos with VideoExpress AI.
+A personal collection of reusable production prompts for creating vertical videos for Facebook Reels and YouTube Shorts with VideoExpress AI.
 
 These are prompt and production guides. They do not control VideoExpress automatically; use them with a browser-capable agent that can operate VideoExpress.
 
@@ -13,6 +13,10 @@ These are prompt and production guides. They do not control VideoExpress automat
 ## Playlists
 
 - [AJ-AI Animal Mini-Dramas — Season 1](playlists/aj-ai-animal-mini-dramas-season-1.md) — an eight-episode connected Shorts season following Pip the squirrel through a park rebuilding after a storm.
+
+## Shared cross-platform format
+
+Prepare a shared vertical 9:16 master (1080×1920 MP4 when available), keep key content clear of interface overlays, and use separate platform titles/captions. The default 30–45 second runtime is suitable for cross-posting. See each workflow for upload notes.
 
 ## Shared checklist
 
@@ -28,7 +32,7 @@ Use [CHECKLIST.md](CHECKLIST.md) for production, render tracking, and the requir
 
 ## Personal defaults
 
-- Format: vertical 9:16 Shorts.
+- Format: vertical 9:16 for Facebook Reels and YouTube Shorts; shared master at 1080×1920 MP4 when available.
 - Animal workflow: cinematic, whimsical animal mini-stories with optional subtle AJ-AI branding.
 - Stickman comedy workflow: affectionate, visually clear couple humor with a fast hook and satisfying punchline.
 - Stickman comedy runtime: 30 seconds total, five clips of six seconds each.
