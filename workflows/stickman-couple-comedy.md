@@ -69,7 +69,18 @@ Before rendering, write a compact storyboard table with:
 - video/motion prompt;
 - continuity handoff to the next clip.
 
-Give the couple stable visual identities with a continuity card approved before rendering: husband with a blue shirt and round glasses; wife with a yellow cardigan and high ponytail. Treat these features as mandatory in every image and motion prompt, and verify them at the start, middle, and end of each rendered clip before assembly. Do not silently change faces, clothing, proportions, or accessories from clip to clip. Keep both characters clearly 2D stickmen; avoid photorealistic humans or mixed art styles.
+## Permanent couple reference
+
+Use the couple shown in the user-provided master image, “Vertical 916 frame, clean 2D stickman comic illustration.jpg,” as the fixed recurring leads for this series. Treat this reference as character art only; its plant, watering can, room, poses, and other props are not permanent.
+
+- **Husband:** oversized round white face; short black side-swept hair with a small upward tuft; thick round black glasses with both lenses and bridge; simple brows, eyes, small nose, and expressive mouth; blue short-sleeved shirt; thin black stick-figure arms and long thin black legs; white cartoon-glove hands; black oval shoes.
+- **Wife:** oversized round white face in the same drawing style; simple eyes with lashes, brows, small nose, and expressive mouth; black high ponytail secured with a yellow tie; white top under a yellow cardigan; thin black stick-figure arms and long thin black legs; white cartoon-glove hands; black oval shoes.
+- Keep both characters’ large-head/long-limb proportions, relative height, face shapes, line weight, colors, and clean 2D comic treatment consistent with the master image. Their limbs remain thin black stick lines from shoulder/hip through wrist/ankle, with complete connected legs and visible feet; do not add realistic flesh or thick human limbs.
+- Keep the husband’s round glasses on his face in every shot and frame, especially laughter, profile, fast motion, and reaction shots. Keep the wife’s high ponytail and yellow tie in every shot. Do not omit, replace, resize, recolor, or transfer signature features.
+- When image-reference controls are available, use this same master image for every scene or the same approved character crop made from it. Do not generate a fresh character design between clips. If the master image is unavailable, retrieve this same user-provided file or pause before rendering rather than inventing a replacement.
+- Every image and video prompt must restate the fixed designs and glasses/ponytail requirements. Inspect opening, middle, and ending frames of every clip against the master, then regenerate any clip with a missing accessory, changed design, or anatomy/style drift before assembly or export.
+
+
 
 ### Character identity and prop continuity — required
 - Before rendering, define a continuity card for each recurring character with exact head/face, hair, outfit colors, body proportions, and signature accessories. For this couple: husband has round glasses and a blue shirt; wife has a ponytail and a yellow cardigan.
