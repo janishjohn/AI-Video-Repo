@@ -1,12 +1,12 @@
 # AJ-AI Animal Mini-Dramas — Season 1 Playlist
 
-A connected, original YouTube Shorts season designed for the [AJ-AI Mini-Drama Animal Shorts Workflow](mini-drama-animal-shorts.md). Each installment works on its own while advancing one gentle season arc.
+A connected, original short-form video season designed for Facebook Reels and YouTube Shorts with the [AJ-AI Mini-Drama Animal Shorts Workflow](../workflows/mini-drama-animal-shorts.md). Each installment works on its own while advancing one gentle season arc.
 
 ## Season format
 
-- **Platform:** YouTube Shorts.
-- **Frame:** vertical 9:16.
-- **Target length:** 30–45 seconds per episode.
+- **Platforms:** Facebook Reels and YouTube Shorts.
+- **Shared master:** vertical 9:16, 1080×1920 MP4 when available.
+- **Target length:** 30–45 seconds per episode for straightforward cross-posting.
 - **Visual style:** cinematic, whimsical animal story.
 - **Main character:** Pip, a small red squirrel with a cream chest, one notched left ear, a teal scarf, and a brave but impulsive streak.
 - **Recurring setting:** a neighborhood park after a windstorm; a blue mailbox, old oak, pond, and community garden stay visually consistent.
@@ -49,6 +49,12 @@ Use these as the topic line for the workflow. Keep scripts and dialogue original
 - Every episode has its own hook and payoff; do not require viewers to have watched earlier episodes.
 - End episodes 1–7 with a clear clue, choice, or question, but still resolve that episode's immediate problem.
 
+## Cross-posting notes
+
+Use one clean vertical master for both services and keep faces, action, subtitles, and any subtle AJ-AI mark clear of interface controls near the frame edges. Do not bake in a YouTube or Facebook watermark. Add music only when its rights cover both platforms; otherwise add platform-cleared sound separately after upload.
+
+Prepare a distinct YouTube title/description and Facebook caption for each episode. Keep the story cut under 90 seconds for this shared season format. These are upload-ready assets and copy, not automatic publishing instructions.
+
 ## Playlist description
 
-Pip the squirrel follows a tiny ringing clue through a storm-battered park, finding neighbors who need help and a community rebuilding one small act at a time. Eight whimsical, cinematic animal mini-dramas about curiosity, courage, and helping each other.
+Pip the squirrel follows a tiny ringing clue through a storm-battered park, finding neighbors who need help and a community rebuilding one small act at a time. Eight whimsical, cinematic animal mini-dramas for Facebook Reels and YouTube Shorts.
