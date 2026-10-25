@@ -8,6 +8,11 @@ These are prompt and production guides. They do not control VideoExpress automat
 
 - [Cinematic animal stories](SYSTEM_PROMPT.md) — whimsical animal-led stories, detailed scene image and motion prompts, 9:16 by default.
 - [Stickman couple comedy](workflows/stickman-couple-comedy.md) — original husband-and-wife comic stories, exactly five 6-second clips for a 30-second Short, vertical 9:16.
+- [Mini-drama animal Shorts](workflows/mini-drama-animal-shorts.md) — hook-first, fast-paced animal stories with a clear turn and payoff, personalized for the AJ-AI style.
+
+## Playlists
+
+- [AJ-AI Animal Mini-Dramas — Season 1](playlists/aj-ai-animal-mini-dramas-season-1.md) — an eight-episode connected Shorts season following Pip the squirrel through a park rebuilding after a storm.
 
 ## Shared checklist
 
