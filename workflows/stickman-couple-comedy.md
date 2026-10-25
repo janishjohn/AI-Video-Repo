@@ -69,7 +69,13 @@ Before rendering, write a compact storyboard table with:
 - video/motion prompt;
 - continuity handoff to the next clip.
 
-Give the couple stable visual identities. Example design choices may be selected per series, then retained: husband with a blue shirt and round glasses; wife with a yellow cardigan and high ponytail. Do not silently change faces, clothing, proportions, or accessories from clip to clip. Keep both characters clearly 2D stickmen; avoid photorealistic humans or mixed art styles.
+Give the couple stable visual identities with a continuity card approved before rendering: husband with a blue shirt and round glasses; wife with a yellow cardigan and high ponytail. Treat these features as mandatory in every image and motion prompt, and verify them at the start, middle, and end of each rendered clip before assembly. Do not silently change faces, clothing, proportions, or accessories from clip to clip. Keep both characters clearly 2D stickmen; avoid photorealistic humans or mixed art styles.
+
+### Character identity and prop continuity — required
+- Before rendering, define a continuity card for each recurring character with exact head/face, hair, outfit colors, body proportions, and signature accessories. For this couple: husband has round glasses and a blue shirt; wife has a ponytail and a yellow cardigan.
+- Treat signature accessories as fixed character features, not optional props. State them explicitly in every source-image prompt and every video/motion prompt, including the final clip. The husband must wear the same round glasses in every frame; the wife must retain her same ponytail. Do not omit, replace, recolor, or transfer them.
+- Reuse the same approved character reference image for all clips when supported. Do not switch to a newly generated character design mid-episode. If a clip begins from a different source image, compare it against the continuity card and approved reference before animating.
+- Review each generated clip at its opening, middle, and ending frames, including the final laugh/reaction. Check glasses, hair, clothing, face, proportions, line style, and limb count. Reject and regenerate any clip that loses or changes a signature feature or visibly drifts from the approved design. Do not assemble or export until every clip passes this continuity check.
 
 ### Stickman anatomy — non-negotiable
 - Both spouses must be full-body, unmistakable stick-figure characters in every reference and generated shot. Use a simple round head, expressive face, and thin continuous line-art neck, torso, arms, hands, legs, and feet. Clothing may appear as simple colored shapes over the line-art body, but must not turn the torso or limbs into realistic human anatomy.
