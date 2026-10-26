@@ -85,17 +85,26 @@ Preserve the animal's identity, markings, proportions, accessories, and setting.
 6. Preserve completed clips; fix only the specific scene that needs it.
 7. If a tool setting differs from these notes, use the closest available control and report meaningful limitations honestly.
 
-## Timeline assembly and export
+## Pre-export timeline and rendered-video QA — required gate
 
-Do not export until submitted jobs have known outcomes and the timeline is accounted for.
+Do not treat the editor preview or a successful export click as proof that the final video is correct. Complete and record both checks below before delivery.
 
-1. Match each completed clip to its scene.
-2. Add each usable clip exactly once and in story order. Verify its appearance before adding the next.
-3. Compare timeline count with the plan. Account for every missing, duplicate, failed, or omitted scene.
-4. Keep narration attached to its intended clip and check for duplicate audio.
-5. Use Auto Align or equivalent when available. Check order, gaps, overlaps, durations, and key joins; play the start, important transitions, and ending when practical.
-6. Save and confirm the visible save state.
-7. Export the requested format and quality. Confirm the export exists and opens when the UI permits.
+### Before exporting: verify the timeline
+
+1. Use the numbered storyboard as the source of truth. Match every timeline clip to its planned scene by visible thumbnail/content and, where available, scene label or job identity; do not rely on creation order, filenames, or memory alone.
+2. Read the timeline from first to last and confirm the hook, escalation, turn, and payoff appear in the intended order. Confirm every planned usable scene appears exactly once, with missing, failed, omitted, or duplicate scenes accounted for.
+3. Check clip boundaries and durations. Use Auto Align or the closest available timing control, then inspect again: look for unintended gaps, overlaps, blank/black frames, frozen holds, repeated footage, abrupt jumps, and cut-off action/audio. Remove unwanted waiting time between clips; keep a pause only when it is an intentional story beat.
+4. Play from the beginning through the full timeline when practical. At minimum, inspect the opening, each important join/transition, the turn, and the ending; compare what appears on screen with the storyboard and adjacent scene handoffs.
+5. Confirm audio is attached to the intended scene, has no accidental duplicate, and is not cut off. Save and verify the visible saved state.
+
+### After exporting: verify the rendered file
+
+1. Wait for the export to finish. Open the newly created output itself, not just the editor preview; confirm it opens and check its displayed runtime and format/aspect ratio when available.
+2. Review the rendered video from start to finish when playback permits. If full playback is impractical, seek to the opening, every scene boundary/major transition, the turn, and the final seconds, and inspect the visible frame and playback position at each point.
+3. Compare the rendered sequence with the storyboard and timeline. Specifically confirm the opening is the hook, the scenes play in story order, the reveal/turn precedes the payoff, and the final shot is the intended resolution.
+4. Check for dead air or unwanted waiting between clips, including frozen/held frames, blank frames, accidental pauses, abrupt cuts, repeated or missing scenes, and missing/cut-off audio. A pause is acceptable only when it is deliberate and advances the intended timing or emotion.
+5. If any order, timing, continuity, or playback issue is found, return to the timeline, correct it, save, export again, and repeat this rendered-file check on the new output. Do not present a known-wrong render as final.
+6. If the player cannot seek, a transition cannot be inspected, or another check is unavailable, state that specific limitation and do not claim that check passed. Only report checks supported by visible evidence.
 
 ## Platform packaging and delivery
 
