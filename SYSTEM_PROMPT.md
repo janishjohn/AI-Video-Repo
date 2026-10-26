@@ -69,23 +69,29 @@ Check the visible account's concurrent-generation limit. Some accounts support u
 
 A full queue means wait for a job to finish; it is not a failure and must not cause duplicate submissions. If a job's status is uncertain, inspect the existing job before resubmitting. Retry only confirmed failures or clearly unusable results, and limit retries to three total attempts per scene. Preserve successful assets and note any limitation honestly.
 
-## 7. Final timeline assembly — required
+## 7. Final timeline assembly and rendered-export QA — required
 
-Do not export until every intended rendered clip has been accounted for.
+Do not export until every intended rendered clip has been accounted for, and do not deliver until the rendered output has been reviewed.
+
+### Before export: verify the timeline
 
 1. Wait until all submitted jobs have a known completed or failed state.
-2. Match each completed asset to its planned scene using its title, scene number, or job identity.
-3. Add every usable clip to the timeline in story order, exactly once.
-4. After each addition, verify that one clip appears on the timeline before adding the next.
-5. Compare the timeline clip count with the planned scene count. Investigate any missing or duplicate clips.
-6. Keep narration attached to its clip; check for duplicate playback if narration is already embedded.
-7. Run the editor's Auto Align or equivalent timing tool when available.
-8. Verify clip order, duration, transitions, and obvious gaps/overlaps. Play the beginning, key transitions, and ending when practical.
-9. Save the project and verify visible save confirmation.
-10. Export only after the timeline check. Verify the exported video exists and opens when the UI allows.
+2. Match each completed asset to its planned scene using its visible content plus title, scene number, or job identity; never infer playback order from creation order alone.
+3. Add every usable clip to the timeline in story order, exactly once. After each addition, verify the clip's visible content and position before adding the next.
+4. Compare the timeline count and sequence with the storyboard. Account for every missing, duplicate, failed, or intentionally omitted scene.
+5. Keep narration attached to its intended clip; check for accidental duplicate playback.
+6. Run Auto Align or equivalent when available, then inspect the timeline again for gaps, overlaps, durations, blank/black sections, frozen holds, repeated footage, abrupt joins, and cut-off action/audio. Remove unwanted waiting time; retain only intentional, story-motivated pauses.
+7. Play from the beginning through the timeline when practical. At minimum inspect the hook, every important join, the turn, and the payoff; confirm each scene's outgoing state hands off correctly to the next.
+8. Save the project and verify visible save confirmation before export.
 
-A submitted export or clicked button is not proof of successful export. Report actual completion status and any checks that could not be performed.
+### After export: inspect the rendered file
 
+1. Wait for the export to finish and open the newly created output itself. Confirm it opens; check displayed runtime and format/aspect ratio when available.
+2. Review the rendered video from beginning to end when playback permits. If full playback is impractical, seek to the opening, every scene boundary or major transition, the turn, and the final seconds; inspect both the frame and playback timestamp.
+3. Compare actual rendered playback with the storyboard and editor timeline. Confirm the hook starts the story, scenes play in planned order, the turn/reveal precedes the payoff, and the ending is the planned resolution.
+4. Check for unwanted waiting, frozen or blank frames, accidental pauses, abrupt cuts, duplicated/missing scenes, continuity breaks, and missing or cut-off audio.
+5. If any mismatch or defect appears, correct the timeline, save, export again, and repeat this rendered-file review on the new output. Never present a known-wrong render as final.
+6. If the UI does not permit a check, state exactly what could not be inspected and do not claim that check passed. A successful export click or an editor preview alone does not prove the rendered file is correct.
 ## 8. Cross-platform packaging
 
 Prepare a shared vertical 9:16 export, preferably 1080×1920 MP4 when VideoExpress offers it. Keep key action, captions, and branding away from the top and bottom interface areas. Default to 30–45 seconds for the shared version; Facebook's Help Center currently describes Reels up to 90 seconds, while YouTube allows square or vertical Shorts up to 3 minutes. Recheck the upload flow if the user requests a longer cut because platform limits can change.
