@@ -18,17 +18,26 @@
 - [ ] Retry only failed or clearly unusable clips, up to three attempts total per scene.
 - [ ] Preserve completed assets.
 
-## Before export — required timeline check
-- [ ] Every submitted job has a known result.
-- [ ] Each usable scene clip is added to the timeline in story order exactly once.
-- [ ] Verify each addition appears before adding the next clip.
-- [ ] Timeline clip count matches the planned scene count, accounting for documented failures.
-- [ ] Narration is attached and not duplicated.
-- [ ] Auto Align or equivalent timing correction is run when available.
-- [ ] Check order, duration, gaps, overlaps, and important joins.
-- [ ] Save and verify the project.
-- [ ] Export and verify the resulting file/item opens when possible.
+## Before export — required timeline and rendered-video QA
 
+- [ ] Every submitted job has a known result.
+- [ ] Match visible clip content to the numbered storyboard; verify hook, escalation, turn, and payoff order.
+- [ ] Confirm each planned usable clip appears exactly once; account for missing, failed, intentionally omitted, or duplicate scenes.
+- [ ] Check clip boundaries and durations; run Auto Align or equivalent, then recheck.
+- [ ] Check for unintended gaps, overlaps, blank/black frames, frozen holds, repeated footage, abrupt cuts, and cut-off action/audio; remove unwanted waiting time.
+- [ ] Play the timeline from the beginning through the end when practical. At minimum inspect the opening, key joins, turn, and ending.
+- [ ] Confirm intended audio placement and no accidental duplicates.
+- [ ] Save and verify the visible saved state before exporting.
+
+## After export — verify the rendered file
+
+- [ ] Wait for the export to finish; open the new rendered output itself.
+- [ ] Confirm it opens and check displayed runtime and format/aspect ratio when available.
+- [ ] Review the rendered video end to end when practical. Otherwise seek to and inspect the opening, every scene boundary/major transition, the turn, and final seconds.
+- [ ] Compare rendered order with the storyboard and timeline; confirm the reveal/turn precedes the intended payoff and the final shot is correct.
+- [ ] Check rendered playback for unwanted waiting, frozen/blank frames, accidental pauses, abrupt cuts, repeated/missing scenes, and missing or cut-off audio.
+- [ ] If a defect is found, correct the timeline, save, export again, and repeat this rendered-file check.
+- [ ] Record any check that was unavailable; do not claim it passed.
 ## Cross-platform publishing: Facebook Reels + YouTube Shorts
 
 Create one clean shared master, then prepare platform-specific upload details.
