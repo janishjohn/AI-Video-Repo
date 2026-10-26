@@ -135,21 +135,27 @@ Keep text, narration, and dialogue out of the visual prompt if they belong in se
 5. Wait for all five jobs to reach a known result. If a render fails, inspect it before retrying; retry only confirmed failures or clearly unusable output, with at most three total attempts per clip.
 6. Keep completed clips and note actual durations. Do not treat a full render queue as a failure.
 
-## Timeline assembly — required before export
+## Timeline assembly and rendered-export QA — required
 
-Do not export until every usable rendered clip is on the timeline.
+The planned five-clip beat map is the source of truth. Do not export until every usable rendered clip is accounted for, and do not deliver until the rendered output has been reviewed.
 
-1. Match each finished video to clips 1–5 using scene names or job identity.
-2. Add each clip to the timeline in order, exactly once.
-3. After every addition, verify one new clip appears before adding the next.
-4. Check that the timeline contains all five clips in order and no duplicates.
-5. Confirm total duration is about 30 seconds; note actual timing and adjust where available.
-6. Keep narration/dialogue attached and avoid duplicated audio.
-7. Run Auto Align or the equivalent timing tool when available.
-8. Inspect the beginning, transitions, and final punchline for obvious gaps, overlaps, or cut-off audio.
-9. Save and confirm the project.
-10. Export only after confirming all five clips are present. Verify the exported video exists and opens when possible.
+### Before export: verify the timeline
 
+1. Match every finished clip to its numbered beat by visible content; do not trust creation order or filenames alone.
+2. Confirm clips 1–5 appear in beat order exactly once, with no missing or duplicate clip.
+3. Check total duration and every boundary. Run Auto Align or the equivalent when available, then inspect for gaps, overlaps, blank/black frames, frozen holds, repeated footage, abrupt cuts, and cut-off action/dialogue.
+4. Play the timeline from start through finish when practical. At minimum inspect the hook, every clip join, reversal setup, final punchline, and audio handoffs.
+5. Remove unwanted waiting or held time; keep pauses only when they are intentional comic timing. Confirm dialogue is complete, assigned to the right speaker, and not duplicated.
+6. Save and confirm the project before exporting.
+
+### After export: verify the rendered file
+
+1. Wait until the new export is complete, open that rendered output, and confirm it plays. Check its displayed runtime and format/aspect ratio when available.
+2. Review from start to end when practical. Otherwise seek to the opening, every clip boundary, the reversal, and final seconds; inspect playback position and frame.
+3. Verify the output really plays clips 1–5 in order and ends on clip 5's intended punchline, not just as arranged in the editor.
+4. Check for unwanted waiting, frozen/blank frames, accidental pauses, abrupt cuts, repeated or missing beats, and missing, overlapping, or cut-off dialogue/audio.
+5. If any problem appears, correct the timeline, save, export again, and repeat the rendered-file review. Never call a known-wrong export final.
+6. If a check is unavailable in the player, state that limitation and do not claim it passed.
 ## Example story seed
 
 **“The husband says he has finally learned to listen. His wife tests him by asking him to bring one thing from the kitchen. He returns with an absurd pile of items. Just as she starts to explain, he reveals he brought everything so she could choose. She laughs, then hands him the one thing he forgot: the grocery list.”**
