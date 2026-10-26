@@ -20,7 +20,7 @@ Prepare a shared vertical 9:16 master (1080×1920 MP4 when available), keep key 
 
 ## Shared checklist
 
-Use [CHECKLIST.md](CHECKLIST.md) for production, render tracking, and the required timeline completeness check before exporting.
+Use [CHECKLIST.md](CHECKLIST.md) for production, render tracking, and the required timeline and rendered-export QA gate.
 
 ## Quick start
 
