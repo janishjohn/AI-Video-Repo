@@ -73,30 +73,29 @@ Before rendering, write a compact storyboard table with:
 
 ## Permanent couple reference
 
-Use the couple shown in the user-provided master image, “Vertical 916 frame, clean 2D stickman comic illustration.jpg,” as the fixed recurring leads for this series. Treat this reference as character art only; its plant, watering can, room, poses, and other props are not permanent.
+Use the couple in the user's master image, “Vertical 916 frame, clean 2D stickman comic illustration.jpg,” for identity cues only. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
 
-- **Husband:** oversized round white face; short black side-swept hair with a small upward tuft; thick round black glasses with both lenses and bridge; simple brows, eyes, small nose, and expressive mouth; blue short-sleeved shirt; thin black stick-figure arms and long thin black legs; white cartoon-glove hands; black oval shoes.
-- **Wife:** oversized round white face in the same drawing style; simple eyes with lashes, brows, small nose, and expressive mouth; black high ponytail secured with a yellow tie; white top under a yellow cardigan; thin black stick-figure arms and long thin black legs; white cartoon-glove hands; black oval shoes.
-- Keep both characters’ large-head/long-limb proportions, relative height, face shapes, line weight, colors, and clean 2D comic treatment consistent with the master image. Their limbs remain thin black stick lines from shoulder/hip through wrist/ankle, with complete connected legs and visible feet; do not add realistic flesh or thick human limbs.
-- Keep the husband’s round glasses on his face in every shot and frame, especially laughter, profile, fast motion, and reaction shots. Keep the wife’s high ponytail and yellow tie in every shot. Do not omit, replace, resize, recolor, or transfer signature features.
-- When image-reference controls are available, use this same master image for every scene or the same approved character crop made from it. Do not generate a fresh character design between clips. If the master image is unavailable, retrieve this same user-provided file or pause before rendering rather than inventing a replacement.
-- Every image and video prompt must restate the fixed designs and glasses/ponytail requirements. Inspect opening, middle, and ending frames of every clip against the master, then regenerate any clip with a missing accessory, changed design, or anatomy/style drift before assembly or export.
-
-
+- **Both spouses:** simple white circular heads; only two small dot eyes and one short line mouth; very thin black line for neck, torso, arms, and legs. No detailed face, nose, eyelashes, fingers, muscles, or body volume.
+- **Husband:** tiny blue rectangular shirt mark over the line torso; simple round black glasses that stay visible; at most one small black hair stroke.
+- **Wife:** tiny yellow shirt/cardigan mark over the line torso; one short black ponytail stroke with a small yellow tie. Do not give her a different, more detailed, or more humanlike art style.
+- Keep the heads, line thickness, proportions, and sparse flat coloring consistent between the two characters and every shot. The blue and yellow clothing marks and glasses/ponytail are identity cues; they must not create realistic bodies.
+- Do not use chibi, anime, manga, 3D, realistic cartoon people, skin-colored limbs, detailed hair, facial features beyond dots and one line mouth, shaped hands, shoes, or dimensional clothing. Avoid hybrid bodies, thick thighs, missing or cropped limbs, and mismatched character styles.
+- Reuse the approved couple reference when supported, but explicitly instruct the model to simplify both figures into this same minimal stickman design. If the reference conflicts with the simple line-figure rule, follow the simple line-figure rule.
+- Every image and video prompt must state that both spouses are simple stick figures and repeat the glasses and ponytail cues. Check opening, middle, and ending frames for style drift and missing accessories before assembly.
 
 ### Character identity and prop continuity — required
-- Before rendering, define a continuity card for each recurring character with exact head/face, hair, outfit colors, body proportions, and signature accessories. For this couple: husband has round glasses and a blue shirt; wife has a ponytail and a yellow cardigan.
-- Treat signature accessories as fixed character features, not optional props. State them explicitly in every source-image prompt and every video/motion prompt, including the final clip. The husband must wear the same round glasses in every frame; the wife must retain her same ponytail. Do not omit, replace, recolor, or transfer them.
-- Reuse the same approved character reference image for all clips when supported. Do not switch to a newly generated character design mid-episode. If a clip begins from a different source image, compare it against the continuity card and approved reference before animating.
-- Review each generated clip at its opening, middle, and ending frames, including the final laugh/reaction. Check glasses, hair, clothing, face, proportions, line style, and limb count. Reject and regenerate any clip that loses or changes a signature feature or visibly drifts from the approved design. Do not assemble or export until every clip passes this continuity check.
+
+- Treat the husband's round glasses and blue shirt mark, and the wife's ponytail and yellow shirt mark, as the only signature identity cues.
+- Reuse the approved couple reference for all clips when available, simplified into the same minimal stick-figure style.
+- Review opening, middle, and ending frames for matching circle heads, dot faces, line limbs, clothing marks, glasses, and ponytail. Regenerate clips that become humanlike, change style, or lose a signature cue.
 
 ### Stickman anatomy — non-negotiable
-- Both spouses must be full-body, unmistakable stick-figure characters in every reference and generated shot. Use a simple round head, expressive face, and thin continuous line-art neck, torso, arms, hands, legs, and feet. Clothing may appear as simple colored shapes over the line-art body, but must not turn the torso or limbs into realistic human anatomy.
-- Show two complete legs per character from hips to feet, with both knees and ankles visibly connected in the correct order. Legs must have consistent thin stick-line thickness from upper leg through knee to ankle; do not mix human thighs with stick lower legs, omit a leg, end a leg at the knee, merge legs, or crop limbs at frame edges. Keep feet visible when a full-body shot is requested.
-- Make both characters match the same stickman art style and level of detail. No realistic human girl, realistic skin/flesh limbs, partial-body hybrid, mannequin, amputated appearance, malformed joints, extra/missing limbs, or inconsistent limb thickness.
-- Use full-body or three-quarter framing with enough room around each figure to inspect all limbs. If a pose, prop, sofa, or frame hides the legs, change the staging or camera framing so both complete leg silhouettes remain readable.
-- Put these anatomy constraints directly into every source-image prompt and every video/motion prompt; image/video models may not reliably carry instructions across stages. Re-state the matching design for husband and wife rather than relying on “same characters” alone.
-- Inspect each generated source image at readable size before animating. Reject and regenerate any image where either spouse is not clearly a complete stick figure, where any limb is cropped/hidden/malformed, or where the two spouses use different art styles. Do not send a failed anatomy reference into video generation. After motion generation, inspect for limb deformation or style drift and retry confirmed unusable output within the attempt limit.
+
+- Both spouses must read instantly as simple stick figures: unfilled white circular heads, two dot eyes, one short line mouth, a thin black line torso, and thin black line arms and legs.
+- Clothing is limited to small flat color marks on the torso. Arms and legs stay as single thin lines. Do not add flesh, skin tones, realistic joints, muscles, hands, feet, or detailed anatomy.
+- Both characters must use the same line thickness, head style, facial simplicity, and level of detail. The wife must not become a humanlike cartoon while the husband remains a stickman.
+- Keep the whole figure visible where practical; if a pose hides limbs, simplify the pose or framing. Never crop a limb in a way that makes it look incomplete or malformed.
+- Put these requirements in every source-image prompt and every motion prompt. Inspect the source image before animation; reject it if either spouse is not a clear, matching stick figure. Inspect motion output for style drift before assembly.
 
 ## Image prompts
 
