@@ -24,7 +24,7 @@ Use [CHECKLIST.md](CHECKLIST.md) for production, render tracking, and the requir
 
 ## Quick start
 
-1. Open VideoExpress AI and sign in.
+1. Open [VideoExpress AI](https://app.videoexpress.ai/) and sign in. Use https://app.videoexpress.ai/ as the application URL.
 2. Choose a workflow above and copy it into your browser-capable agent.
 3. Provide your story topic or ask for a fresh one. Include any requested runtime, aspect ratio, narration, and reference images.
 4. Let the workflow plan all scenes before rendering.

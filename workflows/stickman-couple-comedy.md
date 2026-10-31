@@ -133,6 +133,8 @@ Keep text, narration, and dialogue out of the visual prompt if they belong in se
 
 ## Rendering workflow
 
+Open **https://app.videoexpress.ai/** in the supported browser. This is the correct application URL; do not use app.videoexpressai or guess another domain.
+
 1. Prepare all planned scenes and prompts before generation; five is the default.
 2. Confirm the project and generation-dialog ratio are both vertical 9:16.
 3. Check the visible concurrent render limit; never exceed five jobs or the lower displayed limit.
