@@ -1,10 +1,10 @@
 # Start a couple-comedy video
 
-Copy this request into a new browser-capable chat and replace the bracketed details. Use main after this change is merged; before then, explicitly select the improve-couple-workflow branch.
+Copy this request into a new browser-capable chat. Use the main branch. You may add a story idea or explicitly ask the agent to choose; otherwise it asks the story-choice question once.
 
 Use GitHub to read and follow workflows/stickman-couple-comedy.md, characters/permanent-couple.md and CHECKLIST.md in https://github.com/janishjohn/AI-Video-Repo. Use templates/scene-ledger.md privately. The root SYSTEM_PROMPT.md is for animal stories; do not apply its animal defaults to this couple video. Do not modify GitHub.
 
-Open https://app.videoexpress.ai/ using your supported browser and create a funny stickman husband-and-wife video about [STORY IDEA]. Use my approved permanent couple from [ATTACHED IMAGE OR EXACT CURRENT SAVED IMAGE NAME IN MY AI IMAGES]. Keep the established minimal stick-figure style, glasses, ponytail and blue/yellow marks.
+Open https://app.videoexpress.ai/ using your supported browser and start a new funny stickman husband-and-wife video. First ask: “Do you have a story idea, or would you like me to choose one?” Wait for my answer. If I already supplied a story or asked you to choose, proceed without repeating the question. Use characters/permanent-couple.png from this repository as the approved reference unless I supply a newer one; retrieve and inspect it, then select or upload it into VideoExpress using supported controls. Keep the established minimal stick-figure style, glasses, ponytail and blue/yellow marks.
 
 Default to vertical 9:16, about 30 seconds planned as five roughly six-second clips. Use short natural couple dialogue, correctly spelled subtitles and suitable included music where supported. Respect at most five simultaneous video jobs or the lower visible limit.
 

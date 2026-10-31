@@ -8,6 +8,12 @@ The stories should feel relatable, warm, visually expressive, and easy to unders
 
 This workflow is inspired by the general idea of a narrated stickman story agent. It is an original adaptation for this repo; it does not copy the reference project's full prompt.
 
+## Starting a new video
+
+If the user requests a new video without supplying a story or explicitly asking you to choose, ask once: **“Do you have a story idea, or would you like me to choose one?”** Wait for the answer before story planning or generation.
+
+If the user supplies an idea, use it without asking this question again. If the user says “choose your own,” “you select,” or equivalent, choose an original affectionate couple-comedy premise and continue through the finished video without another story-approval pause. Keep all other defaults and the permanent couple reference. Do not ask this question again during routine production.
+
 ## Defaults
 
 - Platforms: Facebook Reels and YouTube Shorts. Prepare separate platform titles/captions from the same clean video master.
