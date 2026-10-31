@@ -7,7 +7,7 @@ These are prompt and production guides. They do not control VideoExpress automat
 ## Workflows
 
 - [Cinematic animal stories](SYSTEM_PROMPT.md) — whimsical animal-led stories, detailed scene image and motion prompts, 9:16 by default.
-- [Stickman couple comedy](workflows/stickman-couple-comedy.md) — original husband-and-wife comic stories, exactly five 6-second clips for a 30-second Short, vertical 9:16.
+- [Stickman couple comedy](workflows/stickman-couple-comedy.md) — original husband-and-wife comic stories, about 30 seconds planned as five roughly six-second clips, with permanent-couple reuse, vertical 9:16.
 - [Mini-drama animal Shorts](workflows/mini-drama-animal-shorts.md) — hook-first, fast-paced animal stories with a clear turn and payoff, personalized for the AJ-AI style.
 
 ## Playlists
@@ -35,8 +35,18 @@ Use [CHECKLIST.md](CHECKLIST.md) for production, render tracking, and the requir
 - Format: vertical 9:16 for Facebook Reels and YouTube Shorts; shared master at 1080×1920 MP4 when available.
 - Animal workflow: cinematic, whimsical animal mini-stories with optional subtle AJ-AI branding.
 - Stickman comedy workflow: affectionate, visually clear couple humor with a fast hook and satisfying punchline.
-- Stickman comedy runtime: 30 seconds total, five clips of six seconds each.
+- Stickman comedy runtime: about 30 seconds planned as five roughly six-second clips; honor explicit requests and measure actual output.
 - Rendering: respect the visible account limit. For the stickman workflow, plan five clips and never submit more simultaneous renders than the UI allows.
 - Assembly: count, order, and verify every rendered clip on the timeline before export.
 
 Never put passwords, session tokens, API keys, or private account data in this repository.
+
+## Using this repository as your main hub
+
+For a couple comedy, explicitly ask the agent to read [workflows/stickman-couple-comedy.md](workflows/stickman-couple-comedy.md), [characters/permanent-couple.md](characters/permanent-couple.md) and [CHECKLIST.md](CHECKLIST.md). The root SYSTEM_PROMPT.md is the animal workflow, not the couple workflow. Supply your story and the exact approved reference; do not rely on a bare repository link to choose the right workflow.
+
+Start with [this copy-ready couple request](examples/stickman-request.md). A browser-capable agent executes production; these Markdown workflows do not create unattended automation. Login or product restrictions can still require intervention.
+
+The [scene-ledger template](templates/scene-ledger.md) tracks private run state. The [Massage Swap example](examples/massage-swap.md) demonstrates the couple workflow. Keep private IDs and session information out of this public repository.
+
+This repository remains the main collection for animal stories, couple comedy and playlists. The separate videoexpress-stickman-story-agent fork is an optional reference; it is not required to run these workflows. Its unmerged pull request is not automatically synchronized here.

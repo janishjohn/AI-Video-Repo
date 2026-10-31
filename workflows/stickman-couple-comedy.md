@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Create original, funny, comic-style husband-and-wife stories for Facebook Reels and YouTube Shorts using VideoExpress AI. Each episode is designed as **30 seconds total: five clips, six seconds each**. Default format is a shared **vertical 9:16 master at 1080×1920 MP4 when available**.
+Create original, funny, comic-style husband-and-wife stories for Facebook Reels and YouTube Shorts using VideoExpress AI. Default planning target: **about 30 seconds total, five roughly six-second clips**. Honor explicit duration/scene-count requests and report measured runtime. Default format is a shared **vertical 9:16 master at 1080×1920 MP4 when available**.
 
 The stories should feel relatable, warm, visually expressive, and easy to understand without sound. Use playful domestic misunderstandings, clever reversals, exaggerated reactions, and a strong visual punchline. Keep the couple affectionate: the humor comes from the situation and their personalities, not cruelty, humiliation, or stereotypes.
 
@@ -13,14 +13,14 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 - Platforms: Facebook Reels and YouTube Shorts. Prepare separate platform titles/captions from the same clean video master.
 
 - Format: vertical 9:16.
-- Runtime: 30 seconds.
-- Structure: exactly five 6-second clips.
+- Runtime: approximately 30 seconds by default; honor explicit requests.
+- Structure: five roughly six-second clips by default; adjust for an explicit request.
 - Style: clean 2D stickman comic animation, bold readable outlines, expressive faces, clear poses, bright cel colors, simple backgrounds, motion lines and restrained comic effects.
 - Cast: one recurring husband and one recurring wife, unless a story needs a small supporting role.
-- Character consistency: create one character reference/master for each spouse, keep their design and outfits stable in the episode, and use the same references in every scene when supported.
+- Character consistency: reuse the user's approved permanent couple across stories and revisions. Do not create replacement masters each episode. Inspect the actual reference and retain the established minimal stick-figure design below.
 - Audio: include short, natural husband-and-wife dialogue by default. Use stable, distinct voices and correct speaker assignment. Keep the visual joke understandable on mute with readable captions when supported. Narration is optional and must not replace the couple's exchange.
 - Branding: place “AJ-AI” subtly in a background detail when it fits; never rely on tiny lettering.
-- Rendering: VideoExpress supports up to five simultaneous renders for this workflow. Confirm the visible account limit; submit the five planned clips in order, never more than five at once.
+- Rendering: at most five concurrent video jobs, or the lower visible account limit. A full queue means wait for a slot, not resubmit.
 
 ## Comedy and story rules
 
@@ -33,7 +33,7 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 7. Keep the joke original and specific. Avoid copying recognizable characters, existing skits, or viral videos.
 8. Keep dialogue short enough to fit naturally in six seconds. No clip should require a long explanation.
 9. Keep characters kind to each other. End on a shared laugh, affectionate reveal, or playful twist where possible.
-10. No filler: if a beat does not advance the gag, sharpen or remove it while preserving the five-clip format.
+10. No filler: if a beat does not advance the gag, sharpen or remove it while preserving the requested story length.
 
 ## Relatable, enjoyable, shareable comedy — required
 
@@ -42,7 +42,7 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 - Write the spoken joke first. Use conversational English, contractions, short lines, and a clear setup followed by a surprising payoff. Avoid abstract lessons, slow explanations, or a story whose humor depends on a plant visibly changing health in seconds.
 - Hook within the first two seconds. Each clip must add a new beat; clip 5 must deliver the strongest laugh. End with a warm reaction or visual callback, not an explanation of the joke.
 - Allow roughly 8–12 spoken words per six-second clip and leave time for expressions and a reaction pause. Prefer one speaker per clip; when two speak, specify their order and prohibit overlapping speech.
-- In VideoExpress's combined Video and Audio Prompt field, include exact quoted dialogue with the speaker named, plus voice and timing directions. Use separate audio controls when the app offers them. Keep dialogue out of the source-image prompt.
+- Use dedicated dialogue/audio controls when available and keep speech out of visual-motion and source-image prompts. Only use a combined field for speech when the current UI explicitly supports that route; verify the result rather than assume spoken dialogue.
 - Reuse the same reference image for the couple. A reference containing both spouses may be used when the app supports it. Keep mouths visible for speaking shots and avoid unnecessary camera movement.
 - Review every rendered clip for audible dialogue, correct speaker, stable voice, natural pacing, and a readable joke. Retry confirmed unusable output within the existing attempt limit. Never export a dialogue episode with missing or cut-off lines.
 - Use captions only when supported and proofread them. Do not claim captions, audio review, or audience appeal were verified unless actually checked.
@@ -57,7 +57,7 @@ This workflow is inspired by the general idea of a narrated stickman story agent
 | 4 — 0:18–0:24 | Reversal setup | A clue or unexpected consequence changes the meaning |
 | 5 — 0:24–0:30 | Payoff | Visual punchline, warm twist, and a clean ending pose |
 
-Each clip is six seconds. The story plan must total 30 seconds. If VideoExpress returns a slightly different actual duration, record it and adjust the assembly where supported without cutting off speech.
+The table shows the default planning target, not measured output. Record actual audio/clip durations and cumulative runtime; honor explicit requests such as 36 seconds/six scenes. Shorten speech before generation when needed. Trim only surplus tails, never cut words or speed speech to force timing.
 
 ## Preproduction
 
@@ -73,7 +73,7 @@ Before rendering, write a compact storyboard table with:
 
 ## Permanent couple reference
 
-Use the couple in the user's master image, “Vertical 916 frame, clean 2D stickman comic illustration.jpg,” for identity cues only. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
+Use the couple in the user's approved master image. The previously recorded candidate is “Vertical 916 frame, clean 2D stickman comic illustration.jpg”; verify the current exact asset or attachment before use, since the user may select a newer reference. Do not claim this image was inspected during repository editing. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
 
 - **Both spouses:** simple white circular heads; only two small dot eyes and one short line mouth; very thin black line for neck, torso, arms, and legs. No detailed face, nose, eyelashes, fingers, muscles, or body volume.
 - **Husband:** tiny blue rectangular shirt mark over the line torso; simple round black glasses that stay visible; at most one small black hair stroke.
@@ -109,13 +109,13 @@ For each clip, create a separate 9:16 source-image prompt showing the exact open
 - the clip's incoming state, so it continues from the previous clip.
 
 Use large expressive poses and silhouettes. Keep backgrounds simple enough that the joke reads instantly.
-- Include the complete stickman anatomy checklist in every prompt: round heads; line-art necks and torsos; two thin continuous arms and two thin continuous legs per person; clearly connected knees and ankles; visible feet in full-body framing; consistent thin line weight; matching 2D stick-figure style for both spouses; no flesh-like limbs or realistic human anatomy.
-- Stage both spouses in a full-body or three-quarter view with all four legs visible and unblocked. Avoid poses, furniture, props, or crops that conceal the knees, lower legs, ankles, or feet.
+- Include the complete stickman anatomy checklist in every prompt: round heads; line-art necks and torsos; two thin continuous arms and two thin continuous legs per person, complete to their simple line endpoints; consistent thin line weight; matching 2D stick-figure style for both spouses; no flesh-like limbs, modeled joints, shaped hands/feet or realistic anatomy.
+- Favor full-body or readable three-quarter views with all four legs complete and unblocked. Simplify overlaps or move the camera if furniture/contact makes a limb appear missing; do not add realistic anatomy to solve visibility.
 - Before animation, inspect each source image for two complete, correctly connected stick figures and matched style. Regenerate any source that has a hybrid body, a missing/cropped/hidden limb, a realistic spouse, malformed joints, or inconsistent limb thickness. Do not proceed until the source passes this check.
 
 ## Video prompts
 
-Write one motion prompt for each source image. Describe a continuous six-second beat:
+Write one motion prompt for each source image. Describe one continuous beat near the planned clip duration:
 - opening pose;
 - the main movement and reaction;
 - camera movement, if useful;
@@ -127,21 +127,21 @@ Keep text, narration, and dialogue out of the visual prompt if they belong in se
 
 ## Rendering workflow
 
-1. Prepare all five scenes and prompts before generation.
+1. Prepare all planned scenes and prompts before generation; five is the default.
 2. Confirm the project and generation-dialog ratio are both vertical 9:16.
-3. Check the visible concurrent render limit; the planned batch is exactly five and must never exceed the account's displayed limit.
-4. Submit clips 1–5 in story order, track each scene and job status, and do not resubmit an uncertain job.
-5. Wait for all five jobs to reach a known result. If a render fails, inspect it before retrying; retry only confirmed failures or clearly unusable output, with at most three total attempts per clip.
+3. Check the visible concurrent render limit; never exceed five jobs or the lower displayed limit.
+4. Submit scenes in story order. Record job ID/status immediately and prepare the next source while earlier jobs render. Keep the same panel and approved references. Never duplicate an uncertain job; use planned handoffs during submission and review actual joins in the final pass.
+5. Wait for every planned job to reach a known result. If a render fails, inspect it before retrying; retry only confirmed failures or clearly unusable output, with at most three total attempts per clip.
 6. Keep completed clips and note actual durations. Do not treat a full render queue as a failure.
 
 ## Timeline assembly and rendered-export QA — required
 
-The planned five-clip beat map is the source of truth. Do not export until every usable rendered clip is accounted for, and do not deliver until the rendered output has been reviewed.
+The requested storyboard and recorded scene count are the source of truth (five by default). Do not export until every usable rendered clip is accounted for, and do not deliver until the rendered output has been reviewed.
 
 ### Before export: verify the timeline
 
 1. Match every finished clip to its numbered beat by visible content; do not trust creation order or filenames alone.
-2. Confirm clips 1–5 appear in beat order exactly once, with no missing or duplicate clip.
+2. Confirm every planned clip, including the final punchline, appears in beat order exactly once, with no missing or duplicate clip.
 3. Check total duration and every boundary. Run Auto Align or the equivalent when available, then inspect for gaps, overlaps, blank/black frames, frozen holds, repeated footage, abrupt cuts, and cut-off action/dialogue.
 4. Play the timeline from start through finish when practical. At minimum inspect the hook, every clip join, reversal setup, final punchline, and audio handoffs.
 5. Remove unwanted waiting or held time; keep pauses only when they are intentional comic timing. Confirm dialogue is complete, assigned to the right speaker, and not duplicated.
@@ -151,7 +151,7 @@ The planned five-clip beat map is the source of truth. Do not export until every
 
 1. Wait until the new export is complete, open that rendered output, and confirm it plays. Check its displayed runtime and format/aspect ratio when available.
 2. Review from start to end when practical. Otherwise seek to the opening, every clip boundary, the reversal, and final seconds; inspect playback position and frame.
-3. Verify the output really plays clips 1–5 in order and ends on clip 5's intended punchline, not just as arranged in the editor.
+3. Verify the output really plays all planned clips in order and ends on the intended final punchline, not just as arranged in the editor.
 4. Check for unwanted waiting, frozen/blank frames, accidental pauses, abrupt cuts, repeated or missing beats, and missing, overlapping, or cut-off dialogue/audio.
 5. If any problem appears, correct the timeline, save, export again, and repeat the rendered-file review. Never call a known-wrong export final.
 6. If a check is unavailable in the player, state that limitation and do not claim it passed.
@@ -159,7 +159,7 @@ The planned five-clip beat map is the source of truth. Do not export until every
 
 **“The husband says he has finally learned to listen. His wife tests him by asking him to bring one thing from the kitchen. He returns with an absurd pile of items. Just as she starts to explain, he reveals he brought everything so she could choose. She laughs, then hands him the one thing he forgot: the grocery list.”**
 
-Expand any story seed into exactly five six-second clips, each with a concise visual gag, a detailed image prompt, a separate motion prompt, and short natural dialogue by default. The example is only a seed; create fresh stories rather than repeating it automatically.
+Expand any story seed into five roughly six-second clips by default, or the requested scene count/runtime, each with a concise visual gag, a detailed image prompt, a separate motion prompt, and short natural dialogue by default. The example is only a seed; create fresh stories rather than repeating it automatically.
 
 ## Cross-posting package
 
@@ -169,4 +169,35 @@ Prepare a concise YouTube title/description and a separate Facebook caption/desc
 
 ## Completion report
 
-Report the title, 9:16 ratio, five-clip count, measured runtime, narration/audio choice, whether all clips were verified on the timeline, and save/export status. State any QA limitation honestly; never claim a timeline or export check was completed unless it was actually performed.
+Report the title, ratio, actual clip count, measured runtime, narration/audio choice, whether all clips were verified on the timeline, and save/export status. State any QA limitation honestly; never claim a timeline or export check was completed unless it was actually performed.
+
+## Reference, set and prop safeguards
+
+See [permanent couple reference](../characters/permanent-couple.md) and use the [private scene ledger](../templates/scene-ledger.md). Keep the existing simple line-figure style authoritative; the added procedures do not replace it with a detailed cartoon.
+
+- Verify the approved paired reference in Consistent Character for every clip, including scene 1. Keep the selection while the panel is open; restore only on a visible reset. Never replace it with a scene image or drifting last frame.
+- Use separate spouse/environment slots only as the UI supports. Prioritize the approved couple reference; if a room reference would displace it, repeat fixed room geometry in text instead. Report reference-capacity limitations honestly.
+- Fix sofa, door, window, table and camera-side positions. Preserve facing, gaze, hand/arm contact, prop ownership/count/state and outgoing pose across clips.
+- Props enter at the correct story event. During a discussion about ordering pizza, the table stays empty until pizza arrives. Noodles do not appear before they are prepared or delivered.
+- Check the generation dialog's ratio independently from the project bar before every image submission. Keep image enhancement OFF; restore it if a rerender resets it. Keep Creative mode OFF and Advanced Mode OFF for the reference-based route when available.
+- Review each source before animation. Use at most three informed source attempts for a material defect; if none is usable, report the blocker. Preserve successful assets.
+
+## Speech, subtitles and music controls
+
+Keep dialogue-led comedy as the default. Verify stable spouse voice assignments and actual audio; do not silently replace dialogue with narration. If separate dialogue/voices are unsupported, report the limitation and use an alternative only within the user's authorized scope.
+
+For requested narration, prefer the integrated VideoExpress route when available: Narration Video → Create Video → CloneVoice → System Voice → verified available voice → create/import speech within that dialog → generate video. Use actual labels. Do not default to standalone CloneVoice downloads or another provider. Keep visual instructions separate from speech.
+
+Add correctly spelled synchronized subtitles through available editor controls, not generated image text. Keep them inside vertical safe margins and match actual speech. Add suitable included music when available with rights for the intended destinations, quiet beneath dialogue; calm spa music suits the massage example. Do not purchase music or claim captions/music exist when unsupported.
+
+## Exact timeline additions and final checks
+
+Match each completed asset to its ledger entry, not newest-first library order. Where available, use My Media → My AI Videos → right-click the correct card → Add to Timeline. Verify one new clip each time and inspect an uncertain result before repeating. Record each clip's start/end and add count.
+
+After final assembly and export, check opening, every join, final scene and complete runtime for blank/dark sections, unexplained bars, freezes, unwanted pauses, lost glasses/ponytail/clothing cues, humanlike or incomplete limbs, early food, subtitle spelling/sync and dialogue/music balance. Auto Align does not fix visual continuity.
+
+Make final playback checks before claiming verified quality. If full playback or audio listening is unavailable, list the unverified checks. Correct material failures within three total render attempts per scene; preserve good clips. Save and export by default unless the user requests script-only, project-only or no export. Prefer included 1080p/high-quality MP4 settings without buying upgrades.
+
+Video creation does not authorize GitHub edits, purchases, public posting, deletion of unrelated work or a new provider. Follow supported authentication/confirmation rules. Keep private asset/job IDs only in the run ledger, never public commits.
+
+See [Massage Swap](../examples/massage-swap.md) for a five-scene example and [the quick-start request](../examples/stickman-request.md) for starting a new chat.
