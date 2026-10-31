@@ -2,7 +2,15 @@
 
 The appearance/style rules in [the couple workflow](../workflows/stickman-couple-comedy.md) remain authoritative: minimal matching stick figures, round heads, dot faces, thin line bodies/limbs, husband's round glasses/blue mark and wife's ponytail/yellow mark. Do not import more detailed faces, clothing, modeled hands/feet or realistic anatomy.
 
-At production setup, inspect the user's currently approved attachment or exact saved image in VideoExpress My AI Images. The workflow records a candidate filename, but it may have been superseded. Ask once if reference identity is ambiguous. This repository edit has not inspected the actual image or confirmed a private asset ID.
+## Approved image
+
+![Approved permanent couple](permanent-couple.png)
+
+The user supplied and approved [permanent-couple.png](permanent-couple.png) on 2026-10-31. Use this bundled image as the default identity reference unless the user supplies a newer one. It shows the husband on the left with round black glasses, short black hair and a blue shirt, and the wife on the right with a black ponytail, yellow hair tie and yellow cardigan over a white top. Both have white faces and black limbs. The file is the original uploaded PNG, unchanged.
+
+At production setup, open and inspect the actual image, then select or upload it into VideoExpress through supported controls. Do not assume a repository link automatically attaches an image to VideoExpress. Reuse an existing matching My AI Images asset when available and record that verified asset privately. The repository does not establish a VideoExpress asset ID.
+
+The image supplies identity cues; retain the existing workflow's simplified line-figure rendering rules. Adding this reference does not silently change the chosen style to detailed cartoon bodies.
 
 Reuse the same permanent couple across new episodes and revisions. Do not generate fresh masters unless the user requests replacement. Record the selected reference privately and keep it in Consistent Character for every scene, including scene 1. Retain it through submissions and restore only when the visible control resets.
 

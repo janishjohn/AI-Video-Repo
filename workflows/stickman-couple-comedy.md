@@ -73,7 +73,7 @@ Before rendering, write a compact storyboard table with:
 
 ## Permanent couple reference
 
-Use the couple in the user's approved master image. The previously recorded candidate is “Vertical 916 frame, clean 2D stickman comic illustration.jpg”; verify the current exact asset or attachment before use, since the user may select a newer reference. Do not claim this image was inspected during repository editing. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
+Use the approved bundled [permanent-couple.png](../characters/permanent-couple.png) as the default identity reference, unless the user supplies a newer one. See [the reference procedure](../characters/permanent-couple.md) for inspection and VideoExpress selection/upload. Preserve the established simplified line-figure style. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
 
 - **Both spouses:** simple white circular heads; only two small dot eyes and one short line mouth; very thin black line for neck, torso, arms, and legs. No detailed face, nose, eyelashes, fingers, muscles, or body volume.
 - **Husband:** tiny blue rectangular shirt mark over the line torso; simple round black glasses that stay visible; at most one small black hair stroke.

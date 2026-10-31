@@ -50,3 +50,7 @@ Start with [this copy-ready couple request](examples/stickman-request.md). A bro
 The [scene-ledger template](templates/scene-ledger.md) tracks private run state. The [Massage Swap example](examples/massage-swap.md) demonstrates the couple workflow. Keep private IDs and session information out of this public repository.
 
 This repository remains the main collection for animal stories, couple comedy and playlists. The separate videoexpress-stickman-story-agent fork is an optional reference; it is not required to run these workflows. Its unmerged pull request is not automatically synchronized here.
+
+## Permanent couple image
+
+The approved reference is included at [characters/permanent-couple.png](characters/permanent-couple.png). Future couple-video requests can use this file without asking the user to attach it again, provided the agent can retrieve it. Read [the reference procedure](characters/permanent-couple.md), inspect the image and select/upload it into VideoExpress using supported controls. Keep the existing simplified stick-figure style; this reference supplies identity cues.
