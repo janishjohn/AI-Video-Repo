@@ -47,3 +47,19 @@ Add rows when needed. Record failed/replacement assets separately, preserving su
 - Connected scenes using these outfits:
 - Motivated wardrobe transition (if any):
 - Identity/style/no-glasses retained after outfit changes:
+
+## Asynchronous status monitoring
+
+| Scene/job identity | Last visible status | Last check time | Next recheck / independent work | Completed asset or explicit failure |
+| --- | --- | --- | --- | --- |
+| | | | | |
+
+Track every unfinished scene separately; batch submissions can finish at different times. Wait/recheck processing jobs without resubmitting.
+
+- Export identity/title:
+- Export submitted once at:
+- Last observed export status / check time:
+- Next recheck:
+- Confirmed completion/failure evidence:
+- Existing export checked before retry:
+- Actual exported item/file opened and playback checked:

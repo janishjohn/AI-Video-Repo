@@ -70,3 +70,14 @@ Create one clean shared master, then prepare platform-specific upload details.
 - [ ] Suitable included music, when available/cleared, stays below speech.
 - [ ] Actual exported MP4 checked for blank/dark sections, bars, missing ending, identity/style drift, pauses, subtitle and audio defects.
 - [ ] Passed checks distinguished from unverified ones; no claim of playback/audio inspection without evidence.
+
+## Waiting for asynchronous jobs and export
+
+- [ ] Each scene tracked separately; mixed completion times expected even when five jobs were submitted together.
+- [ ] Queued/rendering jobs revisited after short waits; completed clips retained while remaining jobs finished.
+- [ ] No more than five concurrent jobs or the lower visible account limit.
+- [ ] No duplicate submissions, premature failure claims or generation retries solely because a job was still processing.
+- [ ] All planned jobs reached known results before timeline completeness was claimed.
+- [ ] Export submitted once, tracked individually and rechecked after waits while still processing.
+- [ ] Existing exports inspected before any retry; actual completed output opened and checked before claiming delivery.
+- [ ] During extended waits, progress updates named completed/total clips or export status; any concrete monitoring blocker reported with preserved progress.

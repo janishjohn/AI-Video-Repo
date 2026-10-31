@@ -123,3 +123,25 @@ Report the title, format, scene count, actual runtime when visible, audio choice
 ## Copy-ready intake
 
 **Let's make an AJ-AI video for Facebook Reels and YouTube Shorts.** Tell me the story idea or animal, and optionally the length, visual style, narration choice, or reference image/video. If you leave those open, I'll use the personal defaults above.
+
+## Rendering and export: wait and recheck
+
+VideoExpress can run up to five video clips concurrently for this user, subject to any lower visible account limit. Jobs finish independently: submitting five together does not mean all five complete together.
+
+### While clips render
+- Record each scene's existing job ID/title, current status, completed asset if any, and most recent check. Keep queued/rendering/completed/failed states separate for every scene.
+- When a job still says queued, rendering, processing or another in-progress status, wait a short interval and recheck that same job. Use supported waits around 15–30 seconds when available, adapting to visible progress and tool limits. Avoid rapid repeated refreshes.
+- Update only jobs whose status actually changed. Preserve completed clips and continue useful independent work while the others render. If more scenes are planned, use a free slot only after an earlier job is confirmed finished/failed; never exceed five or the lower visible limit.
+- Continue waiting and checking unfinished jobs until every planned scene reaches a known result. One completed clip, an old thumbnail or a mixed-status batch does not establish completion of the whole batch.
+- Do not resubmit a queued/rendering job, count slow progress as a generation attempt, or restart successful clips. Before retrying an unknown result, inspect existing jobs and assets. Retry only a confirmed failure or material unusability within the workflow's retry limit.
+- Keep the user informed roughly once per minute during a long wait, for example “4 of 5 clips are complete; scene 3 is still rendering.” Do not end the task or ask whether to continue merely because generation is ongoing.
+- If status appears stalled, make a supported low-risk status check/recovery and inspect existing assets before any resubmission. Elapsed time alone is not proof of failure. Respect site/tool recovery limits; if a session limit or concrete unresolved error prevents further monitoring, preserve job identities, report the last observed state and give the exact blocker rather than claiming completion.
+
+### While the export runs
+- Submit export once and record the existing export's identity/title and status.
+- If it still says queued, exporting, rendering or processing, wait and recheck that same export, typically after 15–30 seconds. Continue until a visible completed or failed result; do not click Export again because the first job is slow.
+- Before any recovery/retry, inspect the existing export results to avoid duplicate exports. A status check or wait is not an export attempt.
+- A completed badge is followed by opening the actual exported item/file and verifying playback, duration, ending and required quality checks. A submitted export, spinner or finished editor timeline is not a delivered MP4.
+- For a confirmed failed export, use bounded supported recovery and preserve the saved project. If monitoring or playback is unavailable, report the exact remaining state/check honestly.
+
+Use supported visible product controls for status checks; do not bypass site safeguards or use hidden service APIs. No repeated user approval is needed simply to wait and recheck routine authorized renders or exports.
