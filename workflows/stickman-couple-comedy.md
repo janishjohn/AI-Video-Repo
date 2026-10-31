@@ -21,7 +21,7 @@ If the user supplies an idea, use it without asking this question again. If the 
 - Format: vertical 9:16.
 - Runtime: approximately 30 seconds by default; honor explicit requests.
 - Structure: five roughly six-second clips by default; adjust for an explicit request.
-- Style: clean 2D stickman comic animation, bold readable outlines, expressive faces, clear poses, bright cel colors, simple backgrounds, motion lines and restrained comic effects.
+- Style: reference-matched stickman comic animation (VideoExpress Image Type: Other, not 2D), bold readable outlines, expressive faces, clear poses, bright cel colors, simple backgrounds, motion lines and restrained comic effects.
 - Cast: one recurring husband and one recurring wife, unless a story needs a small supporting role.
 - Character consistency: reuse the user's approved permanent couple across stories and revisions. Do not create replacement masters each episode. Inspect the actual reference and retain the established minimal stick-figure design below.
 - Audio: include short, natural husband-and-wife dialogue by default. Use stable, distinct voices and correct speaker assignment. Keep the visual joke understandable on mute with readable captions when supported. Narration is optional and must not replace the couple's exchange.
@@ -113,11 +113,11 @@ For each clip, create a separate 9:16 source-image prompt showing the exact open
 - clear foreground, middle ground, and background;
 - the room's stable layout and landmarks;
 - camera framing and enough visible space for the action;
-- bright, readable 2D comic lighting, clean outlines, cel colors, and a restrained comic visual effect where useful;
+- bright, readable illustrated comic lighting, clean outlines, cel colors, and a restrained comic visual effect where useful;
 - the clip's incoming state, so it continues from the previous clip.
 
 Use large expressive poses and silhouettes. Keep backgrounds simple enough that the joke reads instantly.
-- Include the complete stickman anatomy checklist in every prompt: round heads; line-art necks and torsos; two thin continuous arms and two thin continuous legs per person, complete to their simple line endpoints; consistent thin line weight; matching 2D stick-figure style for both spouses; no flesh-like limbs, modeled joints, shaped hands/feet or realistic anatomy.
+- Include the complete stickman anatomy checklist in every prompt: round heads; line-art necks and torsos; two thin continuous arms and two thin continuous legs per person, complete to their simple line endpoints; consistent thin line weight; matching reference-based stick-figure style for both spouses; no flesh-like limbs, modeled joints, shaped hands/feet or realistic anatomy.
 - Favor full-body or readable three-quarter views with all four legs complete and unblocked. Simplify overlaps or move the camera if furniture/contact makes a limb appear missing; do not add realistic anatomy to solve visibility.
 - Before animation, inspect each source image for two complete, correctly connected stick figures and matched style. Regenerate any source that has a hybrid body, a missing/cropped/hidden limb, a realistic spouse, malformed joints, or inconsistent limb thickness. Do not proceed until the source passes this check.
 
@@ -132,6 +132,16 @@ Write one motion prompt for each source image. Describe one continuous beat near
 - ending pose and prop state that leads into the next clip.
 
 Keep text, narration, and dialogue out of the visual prompt if they belong in separate VideoExpress controls. Avoid asking for multiple unrelated actions in one clip. Preserve the same character designs, room geography, and screen direction across cuts.
+
+## Required VideoExpress image setup
+
+For this stickman workflow, select **Other** in VideoExpress's Image Type/style selector. **Do not select the 2D preset.** This is a UI selection rule; keep the approved illustrated stickman appearance from the reference rather than switching to realistic people or inventing a different style. If Other is unavailable, report the actual available controls; do not silently substitute 2D or claim Other was selected.
+
+Enable **Consistent Character** and select the approved bundled [permanent-couple.png](../characters/permanent-couple.png), or the user's newer explicit reference, using the actual reference-image controls. Upload/select the image itself, not merely its filename or URL in a prompt. Verify the selected thumbnail matches the couple before scene 1; retain the same reference throughout and restore it after any visible reset. Do not generate unreferenced clips if the feature cannot be set up; use bounded supported recovery and report the blocker.
+
+Every source-image prompt and every video/motion prompt must explicitly include: **“Neither the husband nor the wife wears glasses. No eyeglasses or sunglasses on either character.”** The older reference's glasses must not carry into the output. Keep this instruction in visual fields, not spoken dialogue, narration or subtitles. Inspect source images and rendered clips for unwanted eyewear; correct a material mismatch within the existing retry limit.
+
+Immediately before each image submission, confirm **Other**, **Consistent Character ON**, the correct reference thumbnail, requested ratio and enhancement OFF. Keep valid settings/references in the existing panel rather than resetting them needlessly.
 
 ## Rendering workflow
 
@@ -222,7 +232,7 @@ Examples:
 - Outdoors in cold/rainy weather: simple coat or rainwear.
 - Work, exercise or a special occasion: a suitable simple outfit for that activity.
 
-Plan each spouse's outfit/color before image generation and record it in the scene ledger. Repeat it in every image and motion prompt. Keep the same outfit across connected scenes at the same time/location; do not randomly switch clothes between clips. A change requires a story-motivated transition, such as getting dressed or a later-day cut. Preserve the approved identities, minimal 2D stick-figure design, full limbs and no-glasses rule. Choose distinct colors or simple flat patterns for readability, while allowing colors beyond the casual blue/yellow defaults.
+Plan each spouse's outfit/color before image generation and record it in the scene ledger. Repeat it in every image and motion prompt. Keep the same outfit across connected scenes at the same time/location; do not randomly switch clothes between clips. A change requires a story-motivated transition, such as getting dressed or a later-day cut. Preserve the approved identities, minimal reference-based stick-figure design, full limbs and no-glasses rule. Choose distinct colors or simple flat patterns for readability, while allowing colors beyond the casual blue/yellow defaults.
 
 If wardrobe-specific source references are needed, derive them from the approved couple without replacing the permanent identity reference or changing faces/style. Verify the actual available reference controls and inspect generated images; do not claim a setting guarantees wardrobe or identity consistency.
 

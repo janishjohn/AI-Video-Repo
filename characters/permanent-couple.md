@@ -23,3 +23,9 @@ Keep private image/job IDs and screenshots out of public commits. Record actual 
 ## Wardrobe is contextual
 
 Use outfits appropriate to the story: pajamas/sleepwear for a nighttime bedroom or 3 AM bathroom trip, casual clothes at home, and simple activity/weather-appropriate clothes elsewhere. The bundled reference's blue shirt and yellow cardigan are not mandatory in every video. Preserve identity, minimal stick style and no glasses. Record each chosen outfit and keep it consistent across connected clips; change it only for a motivated story transition. See the workflow's wardrobe section.
+
+## Mandatory stickman generation setup
+
+In VideoExpress select **Other**, not the **2D** Image Type preset. Enable **Consistent Character** and select/upload this approved reference image using the supported reference controls; verify the thumbnail before scene 1 and preserve it across scenes. Do not treat a prompt mentioning the image as actual reference selection.
+
+Include this exact visual instruction in every image and motion prompt: “Neither the husband nor the wife wears glasses. No eyeglasses or sunglasses on either character.” It overrides glasses in the older reference. Preserve the remaining illustrated stickman identities and situation-appropriate outfits. Do not put this instruction into speech/subtitles.

@@ -63,3 +63,10 @@ Track every unfinished scene separately; batch submissions can finish at differe
 - Confirmed completion/failure evidence:
 - Existing export checked before retry:
 - Actual exported item/file opened and playback checked:
+
+## Stickman generation setup evidence
+- Image Type: Other visibly selected (not 2D):
+- Consistent Character ON / approved image thumbnail verified:
+- Reference retained for every scene / reset restored:
+- No-glasses wording included in each image and motion prompt:
+- Source/clip identity and no-glasses review result:

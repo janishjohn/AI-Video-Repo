@@ -81,3 +81,11 @@ Create one clean shared master, then prepare platform-specific upload details.
 - [ ] Export submitted once, tracked individually and rechecked after waits while still processing.
 - [ ] Existing exports inspected before any retry; actual completed output opened and checked before claiming delivery.
 - [ ] During extended waits, progress updates named completed/total clips or export status; any concrete monitoring blocker reported with preserved progress.
+
+## Stickman UI selection and prompt requirements
+
+- [ ] VideoExpress Image Type **Other** visibly selected; the **2D** preset was not selected.
+- [ ] **Consistent Character ON** and approved couple image actually selected/uploaded; reference thumbnail verified for scene 1 and retained/restored throughout.
+- [ ] Each image and motion prompt explicitly says neither spouse wears glasses (including eyeglasses/sunglasses); this instruction is not spoken or captioned.
+- [ ] Source images and rendered clips checked against the reference for identity and absence of glasses; material mismatches corrected within bounded retries.
+- [ ] Missing Other/reference controls reported as a concrete limitation rather than silently substituting settings or generating unreferenced clips.
