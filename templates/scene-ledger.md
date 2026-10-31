@@ -39,3 +39,11 @@ Add rows when needed. Record failed/replacement assets separately, preserving su
 - Identity/no glasses on either character/anatomy/prop timing:
 - Checks unavailable and exact limitations:
 - Corrections and remaining blocker, if any:
+
+## Wardrobe continuity
+- Situation/time/weather/activity:
+- Husband selected outfit/color:
+- Wife selected outfit/color:
+- Connected scenes using these outfits:
+- Motivated wardrobe transition (if any):
+- Identity/style/no-glasses retained after outfit changes:

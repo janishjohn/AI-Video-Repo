@@ -84,23 +84,23 @@ Before rendering, write a compact storyboard table with:
 Use the approved bundled [permanent-couple.png](../characters/permanent-couple.png) as the default identity reference, unless the user supplies a newer one. See [the reference procedure](../characters/permanent-couple.md) for inspection and VideoExpress selection/upload. Preserve the established simplified line-figure style. Redraw both as the same simple stick-figure style. Use the linked reel as a broad simplicity reference only if it can be viewed; do not copy its story, shot sequence, or characters: https://www.facebook.com/reel/1797942614850513
 
 - **Both spouses:** simple white circular heads; only two small dot eyes and one short line mouth; very thin black line for neck, torso, arms, and legs. No detailed face, nose, eyelashes, fingers, muscles, or body volume.
-- **Husband:** tiny blue rectangular shirt mark over the line torso; no glasses; at most one small black hair stroke.
-- **Wife:** tiny yellow shirt/cardigan mark over the line torso; one short black ponytail stroke with a small yellow tie. Do not give her a different, more detailed, or more humanlike art style.
-- Keep the heads, line thickness, proportions, and sparse flat coloring consistent between the two characters and every shot. The blue and yellow clothing marks and ponytail are identity cues; they must not create realistic bodies.
+- **Husband:** simple line torso with a small flat outfit shape suited to the situation; blue is the casual default, not a permanent uniform. No glasses; at most one small black hair stroke.
+- **Wife:** simple line torso with a small flat outfit shape suited to the situation; yellow is the casual default, not a permanent uniform. Keep her short black ponytail cue; adapt a hair tie naturally if needed. Do not give her a more detailed or humanlike style.
+- Keep the heads, line thickness, proportions, and sparse flat coloring consistent between the two characters and every shot. Recognizable heads, facial simplicity, hair cues, proportions and line weight preserve identity. Clothing may change to suit the situation and must not create realistic bodies.
 - Do not use chibi, anime, manga, 3D, realistic cartoon people, skin-colored limbs, detailed hair, facial features beyond dots and one line mouth, shaped hands, shoes, or dimensional clothing. Avoid hybrid bodies, thick thighs, missing or cropped limbs, and mismatched character styles.
 - Reuse the approved couple reference when supported, but explicitly instruct the model to simplify both figures into this same minimal stickman design. If the reference conflicts with the simple line-figure rule, follow the simple line-figure rule.
-- Every image and video prompt must state that both spouses are simple stick figures and repeat the blue/yellow marks and ponytail cues; neither spouse wears glasses. Check opening, middle, and ending frames for style drift and missing accessories before assembly.
+- Every image and video prompt must state that both spouses are simple stick figures and repeat the selected scene outfit and ponytail cues; neither spouse wears glasses. Check opening, middle, and ending frames for style drift and missing accessories before assembly.
 
 ### Character identity and prop continuity — required
 
-- Treat the husband's blue shirt mark, and the wife's ponytail and yellow shirt mark, as the only signature identity cues.
+- Preserve each spouse's head, simple face, hair cues, proportions and matching line style. The wife's ponytail remains recognizable. Blue/yellow outfits are casual defaults, not mandatory identity locks.
 - Reuse the approved couple reference for all clips when available, simplified into the same minimal stick-figure style.
 - Review opening, middle, and ending frames for matching circle heads, dot faces, line limbs, clothing marks and ponytail, with no glasses on either spouse. Regenerate clips that become humanlike, change style, or lose a signature cue.
 
 ### Stickman anatomy — non-negotiable
 
 - Both spouses must read instantly as simple stick figures: unfilled white circular heads, two dot eyes, one short line mouth, a thin black line torso, and thin black line arms and legs.
-- Clothing is limited to small flat color marks on the torso. Arms and legs stay as single thin lines. Do not add flesh, skin tones, realistic joints, muscles, hands, feet, or detailed anatomy.
+- Clothing uses simple flat shapes/color accents appropriate to the scene, such as a pajama top or robe. Keep the underlying stick silhouette readable and arms/legs as complete thin lines; avoid bulky, realistic garment volume. Do not add flesh, skin tones, realistic joints, muscles, hands, feet, or detailed anatomy.
 - Both characters must use the same line thickness, head style, facial simplicity, and level of detail. The wife must not become a humanlike cartoon while the husband remains a stickman.
 - Keep the whole figure visible where practical; if a pose hides limbs, simplify the pose or framing. Never crop a limb in a way that makes it look incomplete or malformed.
 - Put these requirements in every source-image prompt and every motion prompt. Inspect the source image before animation; reject it if either spouse is not a clear, matching stick figure. Inspect motion output for style drift before assembly.
@@ -204,10 +204,24 @@ Add correctly spelled synchronized subtitles through available editor controls, 
 
 Match each completed asset to its ledger entry, not newest-first library order. Where available, use My Media → My AI Videos → right-click the correct card → Add to Timeline. Verify one new clip each time and inspect an uncertain result before repeating. Record each clip's start/end and add count.
 
-After final assembly and export, check opening, every join, final scene and complete runtime for blank/dark sections, unexplained bars, freezes, unwanted pauses, unwanted glasses on either spouse, lost ponytail/clothing cues, humanlike or incomplete limbs, early food, subtitle spelling/sync and dialogue/music balance. Auto Align does not fix visual continuity.
+After final assembly and export, check opening, every join, final scene and complete runtime for blank/dark sections, unexplained bars, freezes, unwanted pauses, unwanted glasses on either spouse, lost ponytail/identity cues, unexplained outfit changes, humanlike or incomplete limbs, early food, subtitle spelling/sync and dialogue/music balance. Auto Align does not fix visual continuity.
 
 Make final playback checks before claiming verified quality. If full playback or audio listening is unavailable, list the unverified checks. Correct material failures within three total render attempts per scene; preserve good clips. Save and export by default unless the user requests script-only, project-only or no export. Prefer included 1080p/high-quality MP4 settings without buying upgrades.
 
 Video creation does not authorize GitHub edits, purchases, public posting, deletion of unrelated work or a new provider. Follow supported authentication/confirmation rules. Keep private asset/job IDs only in the run ledger, never public commits.
 
 See [Massage Swap](../examples/massage-swap.md) for a five-scene example and [the quick-start request](../examples/stickman-request.md) for starting a new chat.
+
+## Situation-appropriate wardrobe
+
+Choose suitable outfits automatically from the story, time, location, activity and weather; no separate outfit-approval question is needed. Honor any explicit user choice. The reference supplies character identity rather than a compulsory blue-shirt/yellow-cardigan uniform. Neither spouse wears glasses in any outfit.
+
+Examples:
+- Nighttime bedroom or a 3 AM bathroom trip: simple pajamas, sleepwear or a light robe; keep the comedy non-explicit.
+- At home during the day: relaxed casual clothes.
+- Outdoors in cold/rainy weather: simple coat or rainwear.
+- Work, exercise or a special occasion: a suitable simple outfit for that activity.
+
+Plan each spouse's outfit/color before image generation and record it in the scene ledger. Repeat it in every image and motion prompt. Keep the same outfit across connected scenes at the same time/location; do not randomly switch clothes between clips. A change requires a story-motivated transition, such as getting dressed or a later-day cut. Preserve the approved identities, minimal 2D stick-figure design, full limbs and no-glasses rule. Choose distinct colors or simple flat patterns for readability, while allowing colors beyond the casual blue/yellow defaults.
+
+If wardrobe-specific source references are needed, derive them from the approved couple without replacing the permanent identity reference or changing faces/style. Verify the actual available reference controls and inspect generated images; do not claim a setting guarantees wardrobe or identity consistency.
