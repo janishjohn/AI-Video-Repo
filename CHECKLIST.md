@@ -1,9 +1,9 @@
-# VideoExpress Animal Shorts Checklist
+# VideoExpress Shorts Checklist
 
 ## Before production
 - [ ] Story has a strong opening hook, clear action, emotional turn, and satisfying ending.
 - [ ] Duration and aspect ratio are known; default to vertical 9:16.
-- [ ] Animal identity, markings, accessories, and style are consistent.
+- [ ] For animal workflows, animal identity, markings, accessories, and style are consistent.
 - [ ] Any user-provided reference image is used as requested.
 - [ ] Every scene has an incoming state, new action, outgoing state, and handoff.
 - [ ] Image prompts and motion prompts are separate and specific.
@@ -53,3 +53,20 @@ Create one clean shared master, then prepare platform-specific upload details.
 - [ ] State actual runtime and scene count when available.
 - [ ] State whether timeline completeness and export were verified.
 - [ ] Note any unavailable quality checks or remaining issues.
+
+## Additional checks for stickman couple comedy
+
+- [ ] Actual approved permanent-couple reference identified and inspected, reused across stories and all clips; no silent new masters.
+- [ ] Both spouses match the existing minimal circle-head/line-body style, with complete arms/legs and stable blue/yellow marks, glasses and ponytail.
+- [ ] Reference selection and capacity verified; room reference never displaced the couple.
+- [ ] Dialog ratio checked independently and image enhancement OFF before each source submission.
+- [ ] Planned runtime/scene count honor the request; actual durations recorded instead of assumed.
+- [ ] At most five concurrent video jobs, or lower visible account limit; private scene ledger used.
+- [ ] Set, facing, gaze and contact points continue; food/props do not appear before introduction.
+- [ ] Each source passed review before animation; source/video corrections bounded to three total attempts per scene.
+- [ ] Dialogue-led treatment and speaker assignments retained; unsupported audio features disclosed.
+- [ ] All assets added exactly once with each addition checked, including the final punchline.
+- [ ] Subtitles match spoken words, spelling, timing and vertical safe margins; unsupported captions reported.
+- [ ] Suitable included music, when available/cleared, stays below speech.
+- [ ] Actual exported MP4 checked for blank/dark sections, bars, missing ending, identity/style drift, pauses, subtitle and audio defects.
+- [ ] Passed checks distinguished from unverified ones; no claim of playback/audio inspection without evidence.
