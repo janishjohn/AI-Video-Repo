@@ -1,12 +1,12 @@
 # Permanent couple reference procedure
 
-The appearance/style rules in [the couple workflow](../workflows/stickman-couple-comedy.md) remain authoritative: minimal matching stick figures, round heads, dot faces, thin line bodies/limbs, husband's round glasses/blue mark and wife's ponytail/yellow mark. Do not import more detailed faces, clothing, modeled hands/feet or realistic anatomy.
+The appearance/style rules in [the couple workflow](../workflows/stickman-couple-comedy.md) remain authoritative: minimal matching stick figures, round heads, dot faces, thin line bodies/limbs, husband's blue mark and wife's ponytail/yellow mark. Do not import more detailed faces, clothing, modeled hands/feet or realistic anatomy.
 
 ## Approved image
 
 ![Approved permanent couple](permanent-couple.png)
 
-The user supplied and approved [permanent-couple.png](permanent-couple.png) on 2026-10-31. Use this bundled image as the default identity reference unless the user supplies a newer one. It shows the husband on the left with round black glasses, short black hair and a blue shirt, and the wife on the right with a black ponytail, yellow hair tie and yellow cardigan over a white top. Both have white faces and black limbs. The file is the original uploaded PNG, unchanged.
+The user supplied and approved [permanent-couple.png](permanent-couple.png) on 2026-10-31. Use this bundled image as the default identity reference unless the user supplies a newer one. It shows the husband on the left with round black glasses, short black hair and a blue shirt, and the wife on the right with a black ponytail, yellow hair tie and yellow cardigan over a white top. Both have white faces and black limbs. The file is the original uploaded PNG, unchanged. **Current user override: neither the husband nor the wife wears glasses.** The husband's glasses in this older source image must be omitted from every generated source and clip. Use the image for other identity cues; this override takes precedence over its eyewear.
 
 At production setup, open and inspect the actual image, then select or upload it into VideoExpress through supported controls. Do not assume a repository link automatically attaches an image to VideoExpress. Reuse an existing matching My AI Images asset when available and record that verified asset privately. The repository does not establish a VideoExpress asset ID.
 
@@ -16,6 +16,6 @@ Reuse the same permanent couple across new episodes and revisions. Do not genera
 
 Use paired or separate references only as supported by the current UI. Do not displace a required identity reference with a room image; repeat exact set geometry in text when extra slots are unavailable. Do not claim perfect multi-character locking. Source images and final clips still require visual review.
 
-Preserve full continuous stick limbs without hybrid realistic upper legs, missing lower legs, fused/extra limbs or humanlike wife designs. Husband's glasses remain in laughter and ending shots. Keep the approved simple style over reference-image detail as the existing workflow requires.
+Preserve full continuous stick limbs without hybrid realistic upper legs, missing lower legs, fused/extra limbs or humanlike wife designs. Neither spouse wears glasses in generated images or videos, including laughter and ending shots. Keep the approved simple style over reference-image detail as the existing workflow requires.
 
 Keep private image/job IDs and screenshots out of public commits. Record actual inspection and limitations in [the run ledger](../templates/scene-ledger.md).

@@ -57,7 +57,7 @@ Create one clean shared master, then prepare platform-specific upload details.
 ## Additional checks for stickman couple comedy
 
 - [ ] Actual approved permanent-couple reference identified and inspected, reused across stories and all clips; no silent new masters.
-- [ ] Both spouses match the existing minimal circle-head/line-body style, with complete arms/legs and stable blue/yellow marks, glasses and ponytail.
+- [ ] Both spouses match the existing minimal circle-head/line-body style, with complete arms/legs and stable blue/yellow marks and ponytail; neither spouse wears glasses.
 - [ ] Reference selection and capacity verified; room reference never displaced the couple.
 - [ ] Dialog ratio checked independently and image enhancement OFF before each source submission.
 - [ ] Planned runtime/scene count honor the request; actual durations recorded instead of assumed.

@@ -6,7 +6,7 @@ Copy for each run; do not commit filled private IDs, session data or credentials
 - Requested runtime / planned target / actual runtime:
 - Ratio/style:
 - Approved couple reference (verified name/ID privately):
-- Husband observed appearance / glasses:
+- Husband observed appearance / no glasses:
 - Wife observed appearance:
 - Reference controls verified / capacity limitation:
 - Fixed room landmarks and camera side:
@@ -36,6 +36,6 @@ Add rows when needed. Record failed/replacement assets separately, preserving su
 - Export settings/status/item or file:
 - Actual exported playback: opening / joins / ending / full runtime:
 - Blank/dark sections / bars / freezes:
-- Identity/glasses/anatomy/prop timing:
+- Identity/no glasses on either character/anatomy/prop timing:
 - Checks unavailable and exact limitations:
 - Corrections and remaining blocker, if any:
