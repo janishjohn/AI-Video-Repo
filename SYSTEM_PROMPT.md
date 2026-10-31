@@ -131,3 +131,21 @@ VideoExpress can run up to five video clips concurrently for this user, subject 
 - For a confirmed failed export, use bounded supported recovery and preserve the saved project. If monitoring or playback is unavailable, report the exact remaining state/check honestly.
 
 Use supported visible product controls for status checks; do not bypass site safeguards or use hidden service APIs. No repeated user approval is needed simply to wait and recheck routine authorized renders or exports.
+
+## Mandatory continuity in every scene
+
+Keep all recurring people, animals and story-relevant objects consistent across every source image, generated clip and scene join. Changes are allowed only when required by the story or explicitly requested by the user. A new camera angle, render or scene number is not a reason to redesign a subject, replace a prop or reset its state.
+
+Before rendering, create a continuity inventory in the private scene ledger:
+- Give every recurring person/animal a stable ID. Record face/head, hair/fur/markings, proportions, illustrated style, relative size, distinguishing cues and selected reference. Retain established constraints such as no glasses for the stickman couple.
+- Record each character's situation-appropriate outfit, colors, accessories and occupied hands/paws. Keep the selected outfit through connected scenes; change it only for an explicit wardrobe/time/location transition.
+- Give every important object a stable ID and exact count, shape, size, color, design, owner and location. Preserve its current state: open/closed, full/empty, switched on/off, intact/broken, dry/wet, held/placed, and similar story-relevant properties.
+- Fix recurring set landmarks, furniture, relative distances, light/time progression and camera side. Keep screen direction, facing, gaze, pose and physical contact coherent through the handoff.
+
+For every scene, repeat the relevant identity/outfit/object/set details in image and motion prompts rather than relying on memory or the words “same as before.” Use available Consistent Character/reference features for identity and environments as supported; never displace a required character reference with an object/room reference. If reference slots are limited, repeat concrete details and inspect the output; do not claim perfect locking.
+
+Scene N's outgoing state becomes scene N+1's incoming state. Do not introduce duplicates, missing/replaced characters or props, unexplained ownership changes, mirrored rooms, early food, spontaneous outfit changes or repeated/reset actions. A legitimately hidden/off-screen object remains in its established location/state; it does not need to appear in every shot or be moved into view. A tighter crop must not be mistaken for disappearance.
+
+Plan and record every permitted change: what changes, why, in which scene, and the resulting new state. Show or clearly motivate entrances, exits, deliveries, transfers, wardrobe changes, breakage, growth, consumption and location/time transitions. After the change, carry the new state forward consistently. Honor deliberate user-requested redesigns while preserving everything else.
+
+Review each source before animation and check rendered continuity during the final clip/join/export pass. Concurrent production may use planned handoffs while earlier clips render; do not require all jobs to finish serially. Correct material identity, object or spatial errors within the existing bounded retry rules, preserving successful assets. Minor harmless variations do not justify unlimited regeneration. If a check cannot be performed, mark it unverified rather than claiming consistency.

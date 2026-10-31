@@ -89,3 +89,15 @@ Create one clean shared master, then prepare platform-specific upload details.
 - [ ] Each image and motion prompt explicitly says neither spouse wears glasses (including eyeglasses/sunglasses); this instruction is not spoken or captioned.
 - [ ] Source images and rendered clips checked against the reference for identity and absence of glasses; material mismatches corrected within bounded retries.
 - [ ] Missing Other/reference controls reported as a concrete limitation rather than silently substituting settings or generating unreferenced clips.
+
+## Every-scene people, animal and object continuity — all workflows
+
+- [ ] Stable IDs/references recorded for recurring people/animals; faces, proportions, style, distinguishing cues and relative size retained.
+- [ ] Situation-appropriate outfits/accessories remain unchanged through connected scenes unless a motivated transition requires a change.
+- [ ] Important objects retain exact identity/count/design/color/size, ownership, location and current state.
+- [ ] Room/set landmarks, camera side, movement direction, gaze, pose and contact remain coherent across joins.
+- [ ] Each scene's prompts repeat relevant concrete continuity details; required references retained using supported controls.
+- [ ] Every outgoing state hands off to the next incoming state; no unexplained duplicates, missing/replaced subjects, early props or reset actions.
+- [ ] Off-screen/cropped subjects retain established state/location without being forced into every shot.
+- [ ] Every deliberate change has a story reason, transition scene and recorded new state that persists afterward.
+- [ ] Source, rendered-join and actual-export checks performed as accessible; material defects corrected within bounded retries and unavailable checks marked unverified.

@@ -70,3 +70,15 @@ Track every unfinished scene separately; batch submissions can finish at differe
 - Reference retained for every scene / reset restored:
 - No-glasses wording included in each image and motion prompt:
 - Source/clip identity and no-glasses review result:
+
+## Continuity inventory — all workflows
+
+| Stable subject/object ID | Reference / appearance / design / count | Outfit/accessories or object state | Owner / location / contacts / facing | First introduction | Current state carried forward |
+| --- | --- | --- | --- | --- | --- |
+| | | | | | |
+
+| Scene / transition | Required change | Story reason | Previous state | New state / later scenes affected | Observed review result |
+| --- | --- | --- | --- | --- | --- |
+| | | | | | |
+
+Record scene incoming/outgoing handoffs against this inventory. Off-screen objects keep their established location/state. Preserve identity and objects across shots; changes require a recorded story event or explicit user request.
