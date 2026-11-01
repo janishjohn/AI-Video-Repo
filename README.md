@@ -9,6 +9,7 @@ These are prompt and production guides. They do not control VideoExpress automat
 - [Cinematic animal stories](SYSTEM_PROMPT.md) — whimsical animal-led stories, detailed scene image and motion prompts, 9:16 by default.
 - [Stickman couple comedy](workflows/stickman-couple-comedy.md) — original husband-and-wife comic stories, about 30 seconds planned as five roughly six-second clips, with permanent-couple reuse, vertical 9:16.
 - [Mini-drama animal Shorts](workflows/mini-drama-animal-shorts.md) — hook-first, fast-paced animal stories with a clear turn and payoff, personalized for the AJ-AI style.
+- [Two-character VideoExpress agent](workflows/videoexpress-two-character-agent/README.md) — general two-character stories, 10-second clips or 30-second videos made from three 10-second scenes, with continuity and timeline export checks.
 
 ## Playlists
 
