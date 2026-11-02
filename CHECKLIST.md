@@ -26,6 +26,7 @@
 - [ ] Check clip boundaries and durations; run Auto Align or equivalent, then recheck.
 - [ ] Check for unintended gaps, overlaps, blank/black frames, frozen holds, repeated footage, abrupt cuts, and cut-off action/audio; remove unwanted waiting time.
 - [ ] Play the timeline from the beginning through the end when practical. At minimum inspect the opening, key joins, turn, and ending.
+- [ ] Inspect the final scene at its beginning, middle, and ending; verify its exposure matches the planned lighting and faces/key props remain readable.
 - [ ] Confirm intended audio placement and no accidental duplicates.
 - [ ] Save and verify the visible saved state before exporting.
 
@@ -34,6 +35,7 @@
 - [ ] Wait for the export to finish; open the new rendered output itself.
 - [ ] Confirm it opens and check displayed runtime and format/aspect ratio when available.
 - [ ] Review the rendered video end to end when practical. Otherwise seek to and inspect the opening, every scene boundary/major transition, the turn, and final seconds.
+- [ ] Specifically inspect the final scene at multiple points in the actual rendered export; distinguish a transient buffering/seek black frame from a persistent dark, black, frozen, or missing scene by waiting for playback to load and advance, then checking timestamp and image again.
 - [ ] Compare rendered order with the storyboard and timeline; confirm the reveal/turn precedes the intended payoff and the final shot is correct.
 - [ ] Check rendered playback for unwanted waiting, frozen/blank frames, accidental pauses, abrupt cuts, repeated/missing scenes, and missing or cut-off audio.
 - [ ] If a defect is found, correct the timeline, save, export again, and repeat this rendered-file check.
